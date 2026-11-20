@@ -1,0 +1,1177 @@
+{
+  "date": "2026-11-20T07:51:54.444Z",
+  "pages": [
+    {
+      "file": "index.html",
+      "source": "Home diseñada H + W 1",
+      "sectionsChecked": 8
+    },
+    {
+      "file": "azienda.html",
+      "source": "W 2",
+      "sectionsChecked": 7
+    },
+    {
+      "file": "tecnologie.html",
+      "source": "W 3",
+      "sectionsChecked": 6
+    },
+    {
+      "file": "eco-investimenti.html",
+      "source": "W 4",
+      "sectionsChecked": 4
+    },
+    {
+      "file": "team.html",
+      "source": "W 5",
+      "sectionsChecked": 5
+    },
+    {
+      "file": "contatti.html",
+      "source": "W 6",
+      "sectionsChecked": 9
+    },
+    {
+      "file": "prodotti.html",
+      "source": "W 7",
+      "sectionsChecked": 8
+    },
+    {
+      "file": "ortensia.html",
+      "source": "W 8",
+      "sectionsChecked": 8
+    },
+    {
+      "file": "pothos.html",
+      "source": "W 8: plantilla Featured",
+      "sectionsChecked": 8
+    },
+    {
+      "file": "anthurium.html",
+      "source": "W 8: plantilla Featured",
+      "sectionsChecked": 8
+    },
+    {
+      "file": "dipladenia.html",
+      "source": "W 9",
+      "sectionsChecked": 8
+    },
+    {
+      "file": "monstera.html",
+      "source": "W 9: plantilla Speciale",
+      "sectionsChecked": 8
+    },
+    {
+      "file": "phalaenopsis.html",
+      "source": "W 9: plantilla Speciale",
+      "sectionsChecked": 8
+    },
+    {
+      "file": "piante-verdi.html",
+      "source": "W 10 + W 11 lightbox",
+      "sectionsChecked": 6
+    },
+    {
+      "file": "piante-da-fiore.html",
+      "source": "Categoría requerida por reunión, reutilización W 10 + W 11",
+      "sectionsChecked": 5
+    },
+    {
+      "file": "vivai-produttori.html",
+      "source": "W 12",
+      "sectionsChecked": 8
+    },
+    {
+      "file": "garden-center.html",
+      "source": "W 13",
+      "sectionsChecked": 8
+    },
+    {
+      "file": "grossisti.html",
+      "source": "W 14",
+      "sectionsChecked": 7
+    },
+    {
+      "file": "capolavoro.html",
+      "source": "W 15",
+      "sectionsChecked": 7
+    }
+  ],
+  "layouts": [
+    {
+      "file": "anthurium.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "anthurium.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "anthurium.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "anthurium.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "anthurium.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "anthurium.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "anthurium.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "azienda.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "azienda.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "azienda.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "azienda.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "azienda.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "azienda.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "azienda.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "capolavoro.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 1
+    },
+    {
+      "file": "capolavoro.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 1
+    },
+    {
+      "file": "capolavoro.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 1
+    },
+    {
+      "file": "capolavoro.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "capolavoro.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "capolavoro.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "capolavoro.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "contatti.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "contatti.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "contatti.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "contatti.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "contatti.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "contatti.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "contatti.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "dipladenia.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "dipladenia.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "dipladenia.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "dipladenia.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "dipladenia.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "dipladenia.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "dipladenia.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "eco-investimenti.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "eco-investimenti.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "eco-investimenti.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "eco-investimenti.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "eco-investimenti.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "eco-investimenti.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "eco-investimenti.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "garden-center.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 1
+    },
+    {
+      "file": "garden-center.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 1
+    },
+    {
+      "file": "garden-center.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 1
+    },
+    {
+      "file": "garden-center.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "garden-center.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "garden-center.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "garden-center.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "grossisti.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 1
+    },
+    {
+      "file": "grossisti.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 1
+    },
+    {
+      "file": "grossisti.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 1
+    },
+    {
+      "file": "grossisti.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "grossisti.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "grossisti.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "grossisti.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "index.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 1
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 1
+    },
+    {
+      "file": "index.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 1
+    },
+    {
+      "file": "index.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "index.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "index.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "monstera.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "monstera.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "monstera.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "monstera.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "monstera.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "monstera.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "monstera.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "ortensia.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "ortensia.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "ortensia.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "ortensia.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "ortensia.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "ortensia.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "ortensia.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "phalaenopsis.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "phalaenopsis.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "phalaenopsis.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "phalaenopsis.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "phalaenopsis.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "phalaenopsis.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "phalaenopsis.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "piante-da-fiore.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "piante-da-fiore.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "piante-da-fiore.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "piante-da-fiore.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "piante-da-fiore.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "piante-da-fiore.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "piante-da-fiore.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "piante-verdi.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "piante-verdi.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "piante-verdi.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "piante-verdi.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "piante-verdi.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "piante-verdi.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "piante-verdi.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "pothos.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "pothos.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "pothos.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "pothos.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "pothos.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "pothos.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "pothos.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "prodotti.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 1
+    },
+    {
+      "file": "prodotti.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 1
+    },
+    {
+      "file": "prodotti.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 1
+    },
+    {
+      "file": "prodotti.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "prodotti.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "prodotti.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "prodotti.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "team.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "team.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "team.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "team.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "team.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "team.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "team.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "tecnologie.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "tecnologie.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "tecnologie.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "tecnologie.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "static",
+      "cardColumns": null
+    },
+    {
+      "file": "tecnologie.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "tecnologie.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "tecnologie.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": "sticky",
+      "cardColumns": null
+    },
+    {
+      "file": "vivai-produttori.html",
+      "width": 320,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 1
+    },
+    {
+      "file": "vivai-produttori.html",
+      "width": 390,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 1
+    },
+    {
+      "file": "vivai-produttori.html",
+      "width": 600,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 1
+    },
+    {
+      "file": "vivai-produttori.html",
+      "width": 768,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "vivai-produttori.html",
+      "width": 801,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "vivai-produttori.html",
+      "width": 1024,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    },
+    {
+      "file": "vivai-produttori.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": false,
+      "sidebar": null,
+      "cardColumns": 3
+    }
+  ],
+  "interactions": [
+    "18 gallery cards at desktop/mobile; previous, next, wrap, arrows, Escape and focus restoration",
+    "72 monthly labels, states and keyboard activation",
+    "40 page-level provisional video, contact and external-link controls",
+    "Three editorial testimonial carousels, next and previous",
+    "Mobile hamburger and all three dropdowns on all 19 pages",
+    "Contact required/email validation and demonstrative non-sending submission"
+  ],
+  "errors": [],
+  "internalLinksChecked": 640,
+  "status": "passed"
+}

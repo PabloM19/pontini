@@ -1,0 +1,292 @@
+{
+  "pages": [
+    [
+      1001,
+      "Home",
+      "home",
+      0
+    ],
+    [
+      1002,
+      "L’azienda",
+      "chi-siamo",
+      0
+    ],
+    [
+      1003,
+      "Tecnologie adottate",
+      "tecnologie",
+      1002
+    ],
+    [
+      1004,
+      "ECO investimenti",
+      "eco-investimenti",
+      1002
+    ],
+    [
+      1005,
+      "Il team",
+      "team",
+      1002
+    ],
+    [
+      1006,
+      "Contatti",
+      "contatti",
+      0
+    ],
+    [
+      1007,
+      "Prodotti",
+      "prodotti",
+      0
+    ],
+    [
+      1008,
+      "Piante verdi",
+      "piante-verdi",
+      1007
+    ],
+    [
+      1009,
+      "Piante da fiore",
+      "piante-da-fiore",
+      1007
+    ],
+    [
+      1010,
+      "Vivai produttori",
+      "vivai-produttori",
+      0
+    ],
+    [
+      1011,
+      "Grossisti e distributori",
+      "grossisti-distributori",
+      0
+    ],
+    [
+      1012,
+      "Garden center",
+      "garden-center",
+      0
+    ],
+    [
+      1013,
+      "Capolavoro!",
+      "capolavoro",
+      0
+    ]
+  ],
+  "menus": {
+    "principale-it": [
+      "Principale IT",
+      [
+        [
+          "Chi siamo",
+          1002,
+          0
+        ],
+        [
+          "L’azienda",
+          1002,
+          1
+        ],
+        [
+          "Tecnologie adottate",
+          1003,
+          1
+        ],
+        [
+          "ECO investimenti",
+          1004,
+          1
+        ],
+        [
+          "Il team",
+          1005,
+          1
+        ],
+        [
+          "Contatti",
+          1006,
+          1
+        ],
+        [
+          "Capolavoro!",
+          1013,
+          0
+        ],
+        [
+          "Prodotti",
+          1007,
+          0
+        ],
+        [
+          "Prodotti Featured",
+          "/prodotti/#prodotti-featured",
+          8
+        ],
+        [
+          "Collezione Speciale",
+          "/prodotti/#collezione-speciale",
+          8
+        ],
+        [
+          "Piante verdi",
+          1008,
+          8
+        ],
+        [
+          "Piante da fiore",
+          1009,
+          8
+        ],
+        [
+          "Servizi",
+          1010,
+          0
+        ],
+        [
+          "Vivai produttori",
+          1010,
+          13
+        ],
+        [
+          "Grossisti e distributori",
+          1011,
+          13
+        ],
+        [
+          "Garden center",
+          1012,
+          13
+        ],
+        [
+          "Contatti",
+          1006,
+          0
+        ],
+        [
+          "Area riservata B2B",
+          "#area-riservata",
+          0
+        ]
+      ]
+    ],
+    "footer-it": [
+      "Footer IT",
+      [
+        [
+          "Chi siamo",
+          1002,
+          0
+        ],
+        [
+          "Capolavoro!",
+          1013,
+          0
+        ],
+        [
+          "Produzione di piante ornamentali",
+          1007,
+          0
+        ],
+        [
+          "Servizi per professionisti",
+          1010,
+          0
+        ],
+        [
+          "Contatti",
+          1006,
+          0
+        ],
+        [
+          "Area riservata",
+          "#area-riservata",
+          0
+        ]
+      ]
+    ],
+    "azienda-it": [
+      "Azienda IT",
+      [
+        [
+          "L’azienda",
+          1002,
+          0
+        ],
+        [
+          "Tecnologie adottate",
+          1003,
+          0
+        ],
+        [
+          "ECO investimenti",
+          1004,
+          0
+        ],
+        [
+          "Il team",
+          1005,
+          0
+        ],
+        [
+          "Contatti",
+          1006,
+          0
+        ]
+      ]
+    ],
+    "prodotti-it": [
+      "Prodotti IT",
+      [
+        [
+          "Prodotti Featured",
+          "/prodotti/#prodotti-featured",
+          0
+        ],
+        [
+          "Collezione Speciale",
+          "/prodotti/#collezione-speciale",
+          0
+        ],
+        [
+          "Piante verdi",
+          1008,
+          0
+        ],
+        [
+          "Piante da fiore",
+          1009,
+          0
+        ]
+      ]
+    ],
+    "servizi-it": [
+      "Servizi IT",
+      [
+        [
+          "Vivai produttori",
+          1010,
+          0
+        ],
+        [
+          "Grossisti e distributori",
+          1011,
+          0
+        ],
+        [
+          "Garden center",
+          1012,
+          0
+        ]
+      ]
+    ]
+  },
+  "status": "draft",
+  "language": "it",
+  "home_content_imported": false
+}

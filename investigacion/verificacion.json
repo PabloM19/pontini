@@ -1,0 +1,44 @@
+{
+  "review_date": "2026-11-19",
+  "documentation": [
+    {
+      "file": "README.md",
+      "words": 392,
+      "local_links": 7
+    },
+    {
+      "file": "docs/01-requisitos-y-alcance.md",
+      "words": 1300,
+      "local_links": 6
+    },
+    {
+      "file": "docs/02-mapa-y-flujos.md",
+      "words": 2472,
+      "local_links": 5
+    },
+    {
+      "file": "docs/03-marca-y-recursos.md",
+      "words": 1665,
+      "local_links": 8
+    },
+    {
+      "file": "docs/04-fases-y-pendientes.md",
+      "words": 1684,
+      "local_links": 0
+    }
+  ],
+  "local_links_checked": 26,
+  "broken_local_links": [],
+  "source_hashes_unchanged": true,
+  "pdf_pages": {
+    "brand": 52,
+    "wireframe": 15,
+    "home": 1
+  },
+  "wireframe_annotations": 524,
+  "valid_internal_destinations": true,
+  "external_uris_in_wireframe": 0,
+  "image_files_verified": 80,
+  "all_json_readable": true,
+  "implementation_status": "Investigación y documentación; web todavía no implementada."
+}

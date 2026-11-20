@@ -1,0 +1,352 @@
+INVENTARIO DEL WIREFRAME PONTINI
+Fuente: wireframe-Pontini.pdf. Numeración de páginas física, base 1.
+Revisión: 15 páginas extraídas y revisadas visualmente.
+Las rutas URL son propuestas técnicas; no aparecen como URL en la fuente.
+
+CONTEO
+15 láminas = 12 páginas fijas representadas + 2 ejemplos de ficha de planta + 1 estado de lightbox.
+Objetivo: 13 rutas fijas al añadir Piante da fiore + fichas de plantas (aprox. 9-10, máximo orientativo 12).
+
+PÁGINAS
+
+Página 1 - Homepage
+Tipo: page; ruta propuesta: /; composición: full-width.
+1. Hero grande: Vivai specialisti nella produzione di piante ornamentali; acción Video corporate
+2. Cifras superpuestas: 170.000 m2 superficie produttiva / 3.500.000 piante annuale / 300 formati disponibili
+3. Introducción centrada con links editoriales
+4. Prodotti Featured: 3 tarjetas Photos / Ortensia (Hydrangea) / Anthurium
+5. CTA Vedere tutti il catalogo hacia portada Prodotti (NO descarga)
+6. Banner Capolavoro! The Art of italian plants / Un marchio pensato per conquistare il consumatore
+7. Servizi per professionisti: Garden Center / Produttore di piante / Grossisti di piante
+8. Banner Parli con noi con Contattaci
+9. Certificazioni di qualità: GRASP y GLOBALG.A.P.
+10. Membro di: AssoFloro
+
+Página 2 - Chi siamo > L’azienda
+Tipo: page; ruta propuesta: /chi-siamo/azienda/; composición: sidebar-company.
+1. Título Il Consorzio Vivai Pontini
+2. Vídeo corporativo horizontal con controles
+3. Texto presentación
+4. Tres cifras 170.000 / 3.500.000 / 300
+5. Bloque gris La famiglia Di Girolamo: foto vertical izquierda + texto derecha
+6. Galería: foto horizontal ancha y tres fotos verticales
+7. Texto adicional
+8. Banner Parli con noi / Contattaci
+
+Página 3 - Chi siamo > Tecnologie
+Tipo: page; ruta propuesta: /chi-siamo/tecnologie/; composición: sidebar-company.
+1. Título All’avanguardia della tecnologia y texto introductorio
+2. Serre automatizzate con controllo della temperatura e dell’umidità: bloque gris foto izquierda y texto derecha
+3. Irrigazione con sistema a flusso e riflusso: texto izquierda y vídeo derecha
+4. Bancali di coltivazione robotizzati: bloque gris foto izquierda y texto derecha
+5. Celle frigorifere per il controllo del ciclo produttivo: texto izquierda y foto derecha
+6. Gestione delle scorte e delle spedizioni tramite tecnologia RFID: bloque gris vídeo izquierda y texto derecha
+7. Ricerca e sviluppo di nuove tecniche colturali: texto izquierda y foto derecha
+8. Banner Parli con noi / Contattaci
+
+Página 4 - Chi siamo > ECO
+Tipo: page; ruta propuesta: /chi-siamo/eco-investimenti/; composición: sidebar-company.
+1. Título ECO investimenti y texto introductorio
+2. Certificazioni di qualità e sostenibilità (indicheremo i nomi): bloque gris foto izquierda y texto derecha
+3. Riutilizzo dell’acqua di irrigazione: texto izquierda y vídeo derecha
+4. Energia da fonti non inquinanti: bloque gris con imagen vertical izquierda, foto horizontal y texto derecha
+5. Riduzione progressiva dell’impiego di pesticidi: texto izquierda y foto derecha
+6. Banner Parli con noi / Contattaci
+
+Página 5 - Chi siamo > Il team
+Tipo: page; ruta propuesta: /chi-siamo/team/; composición: sidebar-company.
+1. Título Il team Vivai Pontini
+2. Foto di gruppo horizontal grande
+3. Texto introductorio
+4. Gestione e vendite: 8 tarjetas en 2 columnas x 4 filas
+5. Cada tarjeta: foto/avatar, Nome e cognome, Posizione in azienda, Telefono, Email
+6. Banner Parli con noi / Contattaci
+Observación: Ocho personas son huecos del wireframe, cantidad real pendiente.
+
+Página 6 - Contatti
+Tipo: page; ruta propuesta: /contatti/; composición: sidebar-company.
+1. Título Contatti
+2. Barra contacto: icono teléfono 0773 852003; icono WhatsApp 0773 852003; email info@vivaipontini.it
+3. Mapa esquemático de ubicación
+4. Dirección centrada de Consorzio Vivai Pontini
+5. Scrivici: formulario dos columnas
+6. Formulario: Nome / Email / Oggetto a izquierda, Messaggio a derecha, Informativa Privacy abajo
+7. Botón Inviare
+Observación: No banner de contacto extra ni bloque de certificaciones en esta página.
+Observación: El mismo teléfono aparece como teléfono y WhatsApp; confirmar que es número válido para WhatsApp.
+Observación: El mapa es placeholder gráfico, no demuestra integración Google Maps.
+
+Página 7 - Prodotti
+Tipo: page; ruta propuesta: /prodotti/; composición: full-width.
+1. Hero Produzione di piante ornamentali con Disponibilità settimanale
+2. Introducción centrada
+3. Prodotti Featured: Photos / Ortensia (Hydrangea) / Anthurium; 3 fotos verticales
+4. Collezione Speciale: Dipladenia (Mandevilla) / Monstera / Phalaenopsis; 3 fotos verticales
+5. Banda Piante verdi con título y texto corto
+6. Banda Piante da fiore con título y texto corto
+7. Acciones Disponibilità settimanale y Download catalogo
+8. Certificazioni di qualità: GRASP y GLOBALG.A.P.
+
+Página 8 - Prodotti > Ortensia (esempio Featured)
+Tipo: detail-template-example; ruta propuesta: /prodotti/ortensia/; composición: sidebar-products.
+1. Título Ortensia; nombre botánico Hydrangea macrophyla (literal PDF)
+2. Cifras 1.500 m2 superficie produttiva / 300.000 piante annuale / 12 formati disponibili
+3. Imagen horizontal principal
+4. Disponibilità con 12 segmentos, rellenos o vacíos, sin etiquetas de meses
+5. Descripción
+6. Galería de seis fotos verticales en 3 columnas x 2 filas
+7. Acciones Disponibilità settimanale / Download catalogo
+8. Certificazioni di qualità
+Observación: Ficha de ejemplo compartida por los 3 destacados en links PDF; construir plantilla reutilizable, no copiar Ortensia a otros productos.
+Observación: Cifras y meses dibujados son contenido por validar.
+
+Página 9 - Prodotti > Dipladenia (esempio Speciale)
+Tipo: detail-template-example; ruta propuesta: /prodotti/dipladenia/; composición: sidebar-products.
+1. Título Dipladenia; nombre botánico Mandevilla
+2. Cifras 800 m2 superficie produttiva / 150.000 piante annuale / 21 formati disponibili
+3. Imagen horizontal principal
+4. Disponibilità con 12 segmentos, rellenos o vacíos
+5. Descripción
+6. Galería seis fotos verticales en 3 columnas x 2 filas
+7. Acciones Disponibilità settimanale / Download catalogo
+8. Certificazioni di qualità
+Observación: Misma plantilla estructural que Ortensia.
+Observación: Dipladenia / Monstera / Phalaenopsis enlazan a esta ficha ejemplo; no significa mismo contenido.
+
+Página 10 - Prodotti > Piante verde
+Tipo: gallery-category-page; ruta propuesta: /prodotti/piante-verdi/; composición: sidebar-products.
+1. Título Piante verde (literal PDF; en portada Piante verdi)
+2. Cifras 1.100 m2 superficie produttiva / 270.000 piante annuale / 43 formati disponibili
+3. Introducción
+4. Galería de nueve tarjetas verticales 3 columnas x 3 filas, pie negro con nombre blanco
+5. Nombres: Beaucarnea / Ficus / Dracaena / Sansevieria / Sphatiphyllum / Strelitzia / Beaucarnea / Ficus / Dracaena
+6. Acciones Disponibilità settimanale / Download catalogo
+7. Certificazioni di qualità
+Observación: Nombres repetidos son muestras; no prueban 9 especies distintas.
+Observación: Solo primera Beaucarnea está conectada al ejemplo de lightbox del PDF; reunión extiende comportamiento a toda la galería.
+
+Página 11 - Prodotti > Piante verde popup
+Tipo: overlay-state; ruta propuesta: None; composición: overlay-on-page-10.
+1. Fondo página Piante verde atenuado
+2. Modal gris grande
+3. Foto vertical central
+4. Pie de foto Beaucarnea
+5. Flechas anterior / siguiente a izquierda y derecha
+6. Botón cerrar X superior derecha
+Observación: No es página ni ficha de detalle.
+Observación: X y flechas dibujadas sin enlaces PDF ni estados adicionales.
+Observación: No definir permalink para popup a partir de este PDF.
+
+Página 12 - Servizi > vivai
+Tipo: service-page; ruta propuesta: /servizi/vivai-produttori/; composición: full-width.
+1. Hero Piante semilavorate per vivai produttori / Disponibilità settimanale
+2. Introducción centrada
+3. Specialisti in ortensie prefinite: texto izquierda y vídeo grande derecha
+4. Gamma di specie semilavorate: 6 tarjetas horizontales, 3 columnas x 2 filas
+5. Testimonianze: testimonio con avatar, nombre, cargo, texto y flecha derecha
+6. Acciones Disponibilità settimanale / Download catalogo
+7. Certificazioni di qualità
+Observación: Reunión: testimonios fijos editables, incorporación todavía por confirmar.
+Observación: No landing general Servizi diseñada: enlace global lleva aquí.
+
+Página 13 - Servizi > garden
+Tipo: service-page; ruta propuesta: /servizi/garden-center/; composición: full-width.
+1. Hero Piante finite per garden center / Disponibilità settimanale
+2. Introducción centrada
+3. Capolavoro! Il brand per il consumatore: texto izquierda, vídeo grande derecha y botón Scoprire piu
+4. Gamma di piante per garden center: 6 tarjetas horizontales, 3 columnas x 2 filas
+5. Testimonianze
+6. Acciones Disponibilità settimanale / Download catalogo
+7. Certificazioni di qualità
+Observación: Scoprire piu visible pero sin enlace PDF en esa posición; destino Capolavoro es coherente, pendiente de fijar.
+
+Página 14 - Servizi > grossisti
+Tipo: service-page; ruta propuesta: /servizi/grossisti/; composición: full-width.
+1. Hero Fornitura di piante per grossisti / Disponibilità settimanale
+2. Introducción centrada
+3. Il miglior servizio logistico: texto izquierda y mapa Europa derecha
+4. Gamma di piante per grossisti: 6 tarjetas horizontales, 3 columnas x 2 filas
+5. Testimonianze
+6. Acciones Disponibilità settimanale / Download catalogo
+7. Certificazioni di qualità
+Observación: Mapa Europa ilustra logística; no prueba cobertura efectiva por países.
+
+Página 15 - Capolavoro!
+Tipo: page; ruta propuesta: /capolavoro/; composición: full-width.
+1. Hero con logo Capolavoro!, The Art of italian plants, Il marchio di Vivai Pontini pensato per conquistare il consumatore y botón Scoprire piu con play
+2. Introducción centrada
+3. Tres fotos horizontales en fila
+4. Etichettatura e cartellonistica per il punto vendita
+5. Etichettatura: bloque gris foto izquierda / texto derecha
+6. Cartellonistica: texto izquierda / foto derecha
+7. Gamma di piante Capolavoro!: seis tarjetas horizontales 3 x 2
+8. Banner Parli con noi / Contattaci
+Observación: Hero Scoprire piu lleva icono play: parece vídeo, pero PDF no define comportamiento ni destino.
+Observación: No certificaciones al pie de esta página.
+
+NAVEGACIÓN Y COMPORTAMIENTO
+{
+  "items": [
+    {
+      "label": "Chi siamo",
+      "destination_page": 2,
+      "dropdown_required_by_meeting": true
+    },
+    {
+      "label": "Capolavoro!",
+      "destination_page": 15
+    },
+    {
+      "label": "Prodotti",
+      "destination_page": 7,
+      "dropdown_required_by_meeting": true
+    },
+    {
+      "label": "Servizi",
+      "destination_page": 12,
+      "dropdown_required_by_meeting": true
+    },
+    {
+      "label": "Contatti",
+      "destination_page": 6
+    },
+    {
+      "label": "Área riservata B2B",
+      "destination_page": null,
+      "external_required_by_meeting": true
+    },
+    {
+      "label": "Italiano",
+      "destination_page": null,
+      "language_selector": true
+    }
+  ],
+  "logo": "placeholder PONTINI LOGO; sin enlace a home en anotaciones",
+  "dropdown_states_in_pdf": false
+}
+{
+  "pages": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "navigation": [
+    {
+      "label": "L’azienda",
+      "page": 2
+    },
+    {
+      "label": "Tecnologie adottate",
+      "page": 3
+    },
+    {
+      "label": "ECO investimenti",
+      "page": 4
+    },
+    {
+      "label": "Il team",
+      "page": 5
+    },
+    {
+      "label": "Contatti",
+      "page": 6
+    }
+  ],
+  "social_labels": [
+    "Facebook",
+    "Instagram",
+    "Linkedin"
+  ],
+  "brand_banner": {
+    "label": "Capolavoro! / Un marchio pensato per conquistare il consumatore",
+    "page": 15
+  },
+  "notes": [
+    "Estado activo negro sin subrayar; enlaces dorados.",
+    "En p3 las opciones laterales parecen enlaces pero faltan anotaciones; reconstruir navegación completa según reunión.",
+    "En p5 falta enlace Tecnologie adottate."
+  ]
+}
+{
+  "pages": [
+    8,
+    9,
+    10
+  ],
+  "groups": [
+    {
+      "label": "Prodotti Featured",
+      "items": [
+        "Photos",
+        "Ortensia",
+        "Anthurium"
+      ]
+    },
+    {
+      "label": "Collezione Speciale",
+      "items": [
+        "Dipladenia",
+        "Monstera",
+        "Phalaenopsis",
+        "..."
+      ]
+    },
+    {
+      "label": "Piante verde",
+      "items": []
+    },
+    {
+      "label": "Piante da fiore",
+      "items": []
+    }
+  ],
+  "brand_banner_destination_page": 15
+}
+
+FOOTER
+{
+  "columns": [
+    "Logo y datos de contacto",
+    "Contenuti",
+    "Seguiteci sui social media"
+  ],
+  "company": "Consorzio Vivai Pontini",
+  "address": "Via Migliara, 53 1/2 DX n°245, 04014 Pontinia (LT), Italy",
+  "telephone": "+39 0773 852003",
+  "email": "info@vivaipontini.it",
+  "content_links": [
+    "Chi siamo",
+    "Capolavoro!",
+    "Produzione di piante ornamentali",
+    "Servizi per professionisti",
+    "Contatti",
+    "Area riservata"
+  ],
+  "social_and_newsletter": [
+    "Facebook",
+    "Instagram",
+    "Linkedin",
+    "Iscriviti alla newsletter"
+  ],
+  "notes": [
+    "Teléfono/email subrayados visualmente, pero PDF no contiene URI tel/mailto.",
+    "No enlaces ni pantallas legales definidos salvo Informativa Privacy en formulario.",
+    "Newsletter es solo enlace sin formulario o servicio definido."
+  ]
+}
+
+DUDAS Y DIFERENCIAS
+- Los colores y dibujo del wireframe son esquemáticos; aplicar la dirección visual del brand book y home diseñado.
+- Todas las anotaciones son internas; no hay URL del área B2B, disponibilidad, catálogos, redes ni newsletter.
+- No hay página de inicio enlazada desde logo en el PDF.
+- No hay landing independiente Chi siamo ni Servizi. Chi siamo abre L’azienda y Servizi abre vivai.
+- Piante da fiore no tiene página ni destino PDF. Reunión confirma que requiere categoría y lightbox.
+- Los botones Disponibilità settimanale y Download catalogo están dibujados sin destinos externos.
+- En p11 no funcionan cierre ni flechas en PDF; implementar interacción real en web.
+- Reunión dice cuatro categorías y máximo aproximado 12 fichas; 3 destacados y 6-7 especiales orientativos, no número final.
+- Textos italianos tienen erratas y placeholders: Photos, Hydrangea macrophyla, Piante verde/verdi, Scoprire piu, piante annuale, Área riservata. Revisión por especialista antes de contenido final.
+- No deducir meses disponibles ni cantidades reales de cajas y cifras del wireframe.
+- Catálogo general tiene enlace web Vedere tutti il catalogo en home hacia p7; separar del botón Download catalogo a PDF.
+- Los testimonios tienen flecha de carrusel, datos fijos y decisión de inclusión pendiente.

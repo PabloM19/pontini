@@ -1,0 +1,100 @@
+[
+  {
+    "image_name": "I0.png",
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      15
+    ],
+    "bytes": 103840,
+    "size": [
+      2745,
+      764
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "image_name": "I1.png",
+    "pages": [
+      1
+    ],
+    "bytes": 5219,
+    "size": [
+      177,
+      51
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "image_name": "I2.png",
+    "pages": [
+      1,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "bytes": 66496,
+    "size": [
+      300,
+      300
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "image_name": "I3.jpg",
+    "pages": [
+      1,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "bytes": 8468,
+    "size": [
+      202,
+      235
+    ],
+    "mode": "RGB"
+  },
+  {
+    "image_name": "I1.jpg",
+    "pages": [
+      6
+    ],
+    "bytes": 10056,
+    "size": [
+      754,
+      294
+    ],
+    "mode": "RGB"
+  },
+  {
+    "image_name": "I2.jpg",
+    "pages": [
+      14
+    ],
+    "bytes": 41228,
+    "size": [
+      1200,
+      675
+    ],
+    "mode": "RGB"
+  }
+]

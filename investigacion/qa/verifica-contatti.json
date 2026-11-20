@@ -1,0 +1,56 @@
+{
+  "checks": [
+    {
+      "file": "index.html",
+      "width": 1440,
+      "overflow": false,
+      "lang": "it"
+    },
+    {
+      "file": "index.html",
+      "width": 768,
+      "overflow": false,
+      "lang": "it"
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "overflow": false,
+      "lang": "it"
+    },
+    {
+      "file": "index.html",
+      "width": 320,
+      "overflow": false,
+      "lang": "it"
+    },
+    {
+      "file": "contatti.html",
+      "width": 1440,
+      "overflow": false,
+      "lang": "it"
+    },
+    {
+      "file": "contatti.html",
+      "width": 768,
+      "overflow": false,
+      "lang": "it"
+    },
+    {
+      "file": "contatti.html",
+      "width": 390,
+      "overflow": false,
+      "lang": "it"
+    },
+    {
+      "file": "contatti.html",
+      "width": 320,
+      "overflow": false,
+      "lang": "it"
+    }
+  ],
+  "errors": [],
+  "form": "required validation and local-only submit passed",
+  "navigation": "contact to home passed",
+  "mobileStats": "single column passed"
+}

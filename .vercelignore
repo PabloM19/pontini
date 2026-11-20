@@ -1,0 +1,11 @@
+.git
+dist
+node_modules
+.env*
+*.pdf
+docs
+investigacion
+staging
+tmp
+tests
+README.md

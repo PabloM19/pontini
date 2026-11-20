@@ -1,0 +1,642 @@
+[
+  {
+    "page": 1,
+    "images": []
+  },
+  {
+    "page": 2,
+    "images": []
+  },
+  {
+    "page": 3,
+    "images": []
+  },
+  {
+    "page": 4,
+    "images": []
+  },
+  {
+    "page": 5,
+    "images": []
+  },
+  {
+    "page": 6,
+    "images": [
+      {
+        "name": "Im0.jpg",
+        "width": 812,
+        "height": 1185,
+        "mode": "CMYK",
+        "bytes": 960077
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "images": []
+  },
+  {
+    "page": 8,
+    "images": []
+  },
+  {
+    "page": 9,
+    "images": [
+      {
+        "name": "Im0.jpg",
+        "width": 814,
+        "height": 1211,
+        "mode": "CMYK",
+        "bytes": 849277
+      },
+      {
+        "name": "Im1.jpg",
+        "width": 856,
+        "height": 603,
+        "mode": "CMYK",
+        "bytes": 587036
+      },
+      {
+        "name": "Im2.jpg",
+        "width": 410,
+        "height": 587,
+        "mode": "CMYK",
+        "bytes": 169690
+      },
+      {
+        "name": "Im3.jpg",
+        "width": 410,
+        "height": 587,
+        "mode": "CMYK",
+        "bytes": 176235
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "images": [
+      {
+        "name": "Im0.jpg",
+        "width": 814,
+        "height": 1206,
+        "mode": "CMYK",
+        "bytes": 414021
+      },
+      {
+        "name": "Im1.jpg",
+        "width": 856,
+        "height": 655,
+        "mode": "CMYK",
+        "bytes": 612576
+      }
+    ]
+  },
+  {
+    "page": 11,
+    "images": []
+  },
+  {
+    "page": 12,
+    "images": []
+  },
+  {
+    "page": 13,
+    "images": [
+      {
+        "name": "Im0.jpg",
+        "width": 630,
+        "height": 587,
+        "mode": "CMYK",
+        "bytes": 176270
+      },
+      {
+        "name": "Im1.jpg",
+        "width": 636,
+        "height": 796,
+        "mode": "CMYK",
+        "bytes": 144325
+      },
+      {
+        "name": "Im2.jpg",
+        "width": 1026,
+        "height": 536,
+        "mode": "CMYK",
+        "bytes": 452258
+      },
+      {
+        "name": "Im3.jpg",
+        "width": 494,
+        "height": 842,
+        "mode": "CMYK",
+        "bytes": 255299
+      },
+      {
+        "name": "Im4.jpg",
+        "width": 494,
+        "height": 848,
+        "mode": "CMYK",
+        "bytes": 130660
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "images": []
+  },
+  {
+    "page": 15,
+    "images": []
+  },
+  {
+    "page": 16,
+    "images": [
+      {
+        "name": "Im0.jpg",
+        "width": 1085,
+        "height": 1600,
+        "mode": "CMYK",
+        "bytes": 1167007
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "images": [
+      {
+        "name": "Im0.jpg",
+        "width": 986,
+        "height": 1448,
+        "mode": "CMYK",
+        "bytes": 1082985
+      },
+      {
+        "name": "Im1.jpg",
+        "width": 813,
+        "height": 636,
+        "mode": "CMYK",
+        "bytes": 535716
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "images": []
+  },
+  {
+    "page": 19,
+    "images": []
+  },
+  {
+    "page": 20,
+    "images": []
+  },
+  {
+    "page": 21,
+    "images": []
+  },
+  {
+    "page": 22,
+    "images": []
+  },
+  {
+    "page": 23,
+    "images": []
+  },
+  {
+    "page": 24,
+    "images": []
+  },
+  {
+    "page": 25,
+    "images": []
+  },
+  {
+    "page": 26,
+    "images": []
+  },
+  {
+    "page": 27,
+    "images": [
+      {
+        "name": "Im0.jpg",
+        "width": 545,
+        "height": 743,
+        "mode": "CMYK",
+        "bytes": 218511
+      },
+      {
+        "name": "Im1.jpg",
+        "width": 542,
+        "height": 745,
+        "mode": "CMYK",
+        "bytes": 343088
+      },
+      {
+        "name": "Im2.jpg",
+        "width": 539,
+        "height": 748,
+        "mode": "CMYK",
+        "bytes": 487768
+      }
+    ]
+  },
+  {
+    "page": 28,
+    "images": []
+  },
+  {
+    "page": 29,
+    "images": []
+  },
+  {
+    "page": 30,
+    "images": [
+      {
+        "name": "Im0.jpg",
+        "width": 1172,
+        "height": 684,
+        "mode": "CMYK",
+        "bytes": 269110
+      }
+    ]
+  },
+  {
+    "page": 31,
+    "images": [
+      {
+        "name": "Im0.jp2",
+        "width": 772,
+        "height": 1530,
+        "mode": "RGBA",
+        "bytes": 873333
+      },
+      {
+        "name": "Im1.jpg",
+        "width": 286,
+        "height": 161,
+        "mode": "CMYK",
+        "bytes": 24897
+      },
+      {
+        "name": "Im2.jpg",
+        "width": 286,
+        "height": 161,
+        "mode": "CMYK",
+        "bytes": 24897
+      },
+      {
+        "name": "Im3.jpg",
+        "width": 174,
+        "height": 102,
+        "mode": "CMYK",
+        "bytes": 6104
+      }
+    ]
+  },
+  {
+    "page": 32,
+    "images": [
+      {
+        "name": "Im0.jpg",
+        "width": 504,
+        "height": 296,
+        "mode": "CMYK",
+        "bytes": 54530
+      },
+      {
+        "name": "Im1.jpg",
+        "width": 559,
+        "height": 328,
+        "mode": "CMYK",
+        "bytes": 67538
+      },
+      {
+        "name": "Im2.jpg",
+        "width": 280,
+        "height": 166,
+        "mode": "CMYK",
+        "bytes": 16454
+      }
+    ]
+  },
+  {
+    "page": 33,
+    "images": [
+      {
+        "name": "Im0.jpg",
+        "width": 537,
+        "height": 316,
+        "mode": "CMYK",
+        "bytes": 63946
+      },
+      {
+        "name": "Im1.jpg",
+        "width": 668,
+        "height": 367,
+        "mode": "CMYK",
+        "bytes": 90523
+      },
+      {
+        "name": "Im2.jpg",
+        "width": 581,
+        "height": 323,
+        "mode": "CMYK",
+        "bytes": 69799
+      },
+      {
+        "name": "Im3.jpg",
+        "width": 537,
+        "height": 316,
+        "mode": "CMYK",
+        "bytes": 63946
+      },
+      {
+        "name": "Im4.jpg",
+        "width": 627,
+        "height": 181,
+        "mode": "CMYK",
+        "bytes": 67529
+      },
+      {
+        "name": "Im5.jpg",
+        "width": 537,
+        "height": 316,
+        "mode": "CMYK",
+        "bytes": 63946
+      }
+    ]
+  },
+  {
+    "page": 34,
+    "images": []
+  },
+  {
+    "page": 35,
+    "images": [
+      {
+        "name": "Im0.jpg",
+        "width": 496,
+        "height": 330,
+        "mode": "CMYK",
+        "bytes": 160102
+      },
+      {
+        "name": "Im1.jpg",
+        "width": 447,
+        "height": 447,
+        "mode": "CMYK",
+        "bytes": 72963
+      },
+      {
+        "name": "Im10.jpg",
+        "width": 251,
+        "height": 341,
+        "mode": "CMYK",
+        "bytes": 52059
+      },
+      {
+        "name": "Im11.jpg",
+        "width": 514,
+        "height": 340,
+        "mode": "CMYK",
+        "bytes": 142923
+      },
+      {
+        "name": "Im12.jpg",
+        "width": 308,
+        "height": 685,
+        "mode": "CMYK",
+        "bytes": 69972
+      },
+      {
+        "name": "Im2.jpg",
+        "width": 251,
+        "height": 334,
+        "mode": "CMYK",
+        "bytes": 57402
+      },
+      {
+        "name": "Im3.jpg",
+        "width": 340,
+        "height": 249,
+        "mode": "CMYK",
+        "bytes": 66715
+      },
+      {
+        "name": "Im4.jpg",
+        "width": 245,
+        "height": 340,
+        "mode": "CMYK",
+        "bytes": 52131
+      },
+      {
+        "name": "Im5.jpg",
+        "width": 736,
+        "height": 495,
+        "mode": "CMYK",
+        "bytes": 235312
+      },
+      {
+        "name": "Im6.jpg",
+        "width": 308,
+        "height": 340,
+        "mode": "CMYK",
+        "bytes": 42986
+      },
+      {
+        "name": "Im7.jpg",
+        "width": 339,
+        "height": 685,
+        "mode": "CMYK",
+        "bytes": 75489
+      },
+      {
+        "name": "Im8.jpg",
+        "width": 251,
+        "height": 336,
+        "mode": "CMYK",
+        "bytes": 53559
+      },
+      {
+        "name": "Im9.jpg",
+        "width": 251,
+        "height": 342,
+        "mode": "CMYK",
+        "bytes": 28903
+      }
+    ]
+  },
+  {
+    "page": 36,
+    "images": [
+      {
+        "name": "Im0.jpg",
+        "width": 333,
+        "height": 539,
+        "mode": "CMYK",
+        "bytes": 172021
+      },
+      {
+        "name": "Im1.jpg",
+        "width": 524,
+        "height": 629,
+        "mode": "CMYK",
+        "bytes": 118713
+      }
+    ]
+  },
+  {
+    "page": 37,
+    "images": [
+      {
+        "name": "Im0.jpg",
+        "width": 271,
+        "height": 541,
+        "mode": "CMYK",
+        "bytes": 38647
+      },
+      {
+        "name": "Im1.jpg",
+        "width": 542,
+        "height": 271,
+        "mode": "CMYK",
+        "bytes": 90951
+      },
+      {
+        "name": "Im2.jpg",
+        "width": 271,
+        "height": 541,
+        "mode": "CMYK",
+        "bytes": 19564
+      }
+    ]
+  },
+  {
+    "page": 38,
+    "images": [
+      {
+        "name": "Im0.jp2",
+        "width": 906,
+        "height": 610,
+        "mode": "RGBA",
+        "bytes": 540590
+      },
+      {
+        "name": "Im1.jp2",
+        "width": 1032,
+        "height": 1369,
+        "mode": "RGBA",
+        "bytes": 1012572
+      },
+      {
+        "name": "Im2.jpg",
+        "width": 1258,
+        "height": 560,
+        "mode": "CMYK",
+        "bytes": 162069
+      }
+    ]
+  },
+  {
+    "page": 39,
+    "images": [
+      {
+        "name": "Im0.jp2",
+        "width": 2534,
+        "height": 1806,
+        "mode": "RGBA",
+        "bytes": 1828427
+      }
+    ]
+  },
+  {
+    "page": 40,
+    "images": []
+  },
+  {
+    "page": 41,
+    "images": []
+  },
+  {
+    "page": 42,
+    "images": [
+      {
+        "name": "Im0.jpg",
+        "width": 959,
+        "height": 457,
+        "mode": "CMYK",
+        "bytes": 374646
+      },
+      {
+        "name": "Im1.jpg",
+        "width": 689,
+        "height": 542,
+        "mode": "CMYK",
+        "bytes": 115401
+      }
+    ]
+  },
+  {
+    "page": 43,
+    "images": []
+  },
+  {
+    "page": 44,
+    "images": [
+      {
+        "name": "Im0.jpg",
+        "width": 1448,
+        "height": 1054,
+        "mode": "CMYK",
+        "bytes": 936906
+      }
+    ]
+  },
+  {
+    "page": 45,
+    "images": []
+  },
+  {
+    "page": 46,
+    "images": [
+      {
+        "name": "Im0.jpg",
+        "width": 830,
+        "height": 479,
+        "mode": "CMYK",
+        "bytes": 184982
+      },
+      {
+        "name": "Im1.jp2",
+        "width": 793,
+        "height": 499,
+        "mode": "RGBA",
+        "bytes": 316335
+      }
+    ]
+  },
+  {
+    "page": 47,
+    "images": []
+  },
+  {
+    "page": 48,
+    "images": []
+  },
+  {
+    "page": 49,
+    "images": []
+  },
+  {
+    "page": 50,
+    "images": []
+  },
+  {
+    "page": 51,
+    "images": []
+  },
+  {
+    "page": 52,
+    "images": []
+  }
+]

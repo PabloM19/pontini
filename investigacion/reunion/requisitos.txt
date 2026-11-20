@@ -1,0 +1,336 @@
+Requisitos de la reunión de Pontini para preparar el desarrollo web
+Análisis: 2026-11-19
+
+REQUISITOS CONFIRMADOS Y ESTIMACIONES
+
+R01 — Alcance actual [confirmado_usuario]
+Investigar y reunir toda la documentación para preparar el desarrollo. La implementación del primer borrador local vendrá después de este análisis.
+Implicación: Entregar inventario, estructura, flujos, reglas visuales, pendientes y fases; no publicar ni desplegar.
+Fuente: solicitud del usuario, De momento lo que quiero es que reúnas toda la información.
+
+R02 — Ruta de entrega [confirmado_usuario]
+Desarrollar primero en local con HTML/CSS/JavaScript u otra solución local apropiada, después convertir a WordPress editable y finalmente producción.
+Implicación: Preparar componentes y contenidos reutilizables para WordPress; aún no hay constructor o stack aprobado.
+Fuente: solicitud del usuario, Desarrollarlo primero en local, luego pasarlo a WordPress para que sea editable y luego ya subirlo a producción.
+
+R03 — Publicación [confirmado_usuario]
+Trabajo completamente local en esta etapa, sin publicar en GPT Sites ni otro destino.
+Implicación: La autorización actual no incluye despliegue público.
+Fuente: solicitud del usuario, Sin publicar en GPT Sites ni nada de eso, en local completamente.
+
+R04 — Fidelidad visual [confirmado]
+Seguir la estética del brand book y la home diseñada; el wireframe completo rige la estructura de las demás páginas.
+Implicación: La maqueta local es una estructura con identidad real, no solo cajas grises genéricas.
+Fuente: transcripción, líneas 36–38.
+Fuente: transcripción, líneas 50–52.
+Fuente: solicitud del usuario, Con el mismo estilo ... cómo quieren que sea la página de home, todo tal cual.
+
+R05 — Contenido provisional [confirmado]
+Se puede avanzar con bloques y estructura sin textos definitivos; el usuario permite Lorem Ipsum.
+Implicación: Mantener etiquetas de navegación funcionales en italiano y contenido editorial de prueba sustituible.
+Fuente: transcripción, líneas 50–52.
+Fuente: solicitud del usuario, Se puede rellenar todo con Lorem Ipsum.
+
+R06 — Idiomas [confirmado_usuario_y_contexto]
+Italiano principal e inglés secundario; sin versión española.
+Implicación: Resolver el desliz español principal de la línea 143 en favor de la instrucción explícita del usuario.
+Fuente: solicitud del usuario, El idioma principal debe ser el italiano.
+Fuente: transcripción, líneas 138–145.
+
+R07 — Secuencia de idiomas [confirmado]
+Validar el wireframe completo en italiano primero y traducir después.
+Implicación: Preparar estructura bilingüe desde el inicio, sin asumir que el contenido inglés ya está aprobado.
+Fuente: transcripción, líneas 144–145.
+
+R08 — Revisión lingüística [confirmado_usuario]
+Los textos y revisiones en italiano serán supervisados por un especialista.
+Implicación: Etiquetar contenido italiano provisional y reservar validación editorial antes de producción.
+Fuente: solicitud del usuario, Todas las revisiones de la web van a estar supervisadas por un especialista en italiano.
+
+R09 — Categorías de producto [confirmado]
+Existen cuatro categorías: Destacados, Colección Especial, Planta Verde y Planta de Flor. Los rótulos finales italianos deben tomarse del PDF.
+Implicación: No convertir el desliz tres categorías de las notas o tres primeros de la transcripción en una regla.
+Fuente: transcripción, líneas 66–66.
+Fuente: transcripción, líneas 157–157.
+
+R10 — Fichas de producto [confirmado]
+Destacados y Colección Especial tienen fichas completas por planta.
+Implicación: Una plantilla de ficha reutilizable con registros editoriales para las plantas de esas dos categorías.
+Fuente: transcripción, líneas 78–88.
+Fuente: transcripción, líneas 100–100.
+
+R11 — Galerías de plantas [confirmado]
+Planta Verde y Planta de Flor tienen una página de categoría con texto introductorio y galería; cada foto abre imagen grande en lightbox, sin ficha de especie.
+Implicación: No crear fichas vacías o páginas de detalle para cada imagen de estas galerías.
+Fuente: transcripción, líneas 72–78.
+
+R12 — Destacados [confirmado_con_lista_pendiente]
+En principio son tres plantas fijas. Hortensia y anturios se nombran claramente; la tercera debe confirmarse con el material visual/listado final.
+Implicación: Pothos aparece en conversación; no fijarlo por esa frase aislada.
+Fuente: transcripción, líneas 86–92.
+
+R13 — Volumen de fichas [estimacion_reunion]
+Se estima un máximo aproximado de doce fichas entre ambas categorías, probablemente menos. Colección Especial se estima en seis o siete, sin número cerrado.
+Implicación: Es una estimación de alcance, no doce fichas confirmadas ni un límite técnico rígido de la web.
+Fuente: transcripción, líneas 86–92.
+
+R14 — Selección de productos [confirmado]
+La selección responde a productos importantes de la empresa y no a rotación estacional o de Navidad.
+Implicación: No programar cambios automáticos por temporada.
+Fuente: transcripción, líneas 93–100.
+
+R15 — Altas de fichas [confirmado]
+Añadir una planta nueva a Destacados o Colección Especial requiere crear su ficha.
+Implicación: No suponer una base oculta de cincuenta o sesenta plantas con fichas preexistentes.
+Fuente: transcripción, líneas 81–100.
+
+R16 — Disponibilidad mensual [confirmado_semantica]
+La ficha representa los meses del año en los que está disponible esa planta.
+Implicación: Separar este dato editorial de los enlaces a disponibilidad semanal; el ejemplo febrero-diciembre no es un calendario real de ninguna especie.
+Fuente: transcripción, líneas 105–115.
+
+R17 — Testimonios [confirmado_comportamiento_inclusion_pendiente]
+Si se incluyen, los testimonios serán fijos y mantenidos editorialmente; pueden existir varios. Su inclusión sigue en discusión.
+Implicación: No conectar reseñas a Google ni comprometer el bloque como obligatorio; la flecha indica posible navegación entre varios.
+Fuente: transcripción, líneas 53–56.
+
+R18 — Menús desplegables [confirmado]
+Quiénes Somos, Productos y Servicio muestran sus opciones o categorías en desplegable. Productos muestra las cuatro categorías.
+Implicación: La interacción exacta para táctil y teclado se define en implementación responsive.
+Fuente: transcripción, líneas 147–159.
+
+R19 — Navegación Quiénes Somos [confirmado]
+La entrada de Quiénes Somos lleva a la página de la empresa, denominada hacienda en la conversación; sus subpáginas comparten un submenú lateral izquierdo.
+Implicación: Verificar el rótulo italiano exacto (probablemente Azienda) y sus subpáginas en el wireframe; no crear un hub adicional sin necesidad.
+Fuente: transcripción, líneas 147–153.
+
+R20 — Responsive [confirmado]
+La web debe adaptarse a móvil. Las ocultaciones de bloques se decidirán tras revisar responsive; no se han pedido textos distintos por dispositivo.
+Implicación: Tomar el mismo contenido como base y anotar cualquier cambio aprobado más adelante.
+Fuente: transcripción, líneas 122–128.
+
+R21 — Área reservada [confirmado_destino_pendiente]
+Área reservada enlaza a una aplicación externa del cliente.
+Implicación: No construir autenticación, panel privado ni integración con su sistema en esta fase.
+Fuente: transcripción, líneas 129–133.
+
+R22 — Disponibilidad semanal [confirmado_destino_pendiente]
+Los botones de disponibilidad semanal enlazan a un desarrollo externo.
+Implicación: No desarrollar consulta de stock, scraping o sincronización de inventario.
+Fuente: transcripción, líneas 133–137.
+
+R23 — Catálogos [confirmado_archivos_pendientes]
+Los catálogos se descargan como PDF.
+Implicación: Recibir archivos y su asignación a los botones; no son páginas de catálogo a programar por inferencia.
+Fuente: transcripción, líneas 137–137.
+
+R24 — Diseños especiales [confirmado_entrega_pendiente]
+El equipo aportará el diseño de bloques especiales como la etiqueta o banner Capolavoro en dorado. Rafa debe concretar el ancho requerido.
+Implicación: Reservar el bloque y preparar una especificación de dimensiones tras medir el diseño; no convertir una medida provisional en requisito del cliente.
+Fuente: transcripción, líneas 116–121.
+
+R25 — Textos y multimedia [confirmado_entrega_pendiente]
+El equipo enviará los textos juntos cuando se validen y después recopilará fotos y vídeos por ubicación.
+Implicación: Francesca es el contacto de seguimiento y textos; no asumir que los recursos vistos dentro de PDFs son todos los originales listos para web.
+Fuente: transcripción, líneas 21–21.
+Fuente: transcripción, líneas 35–38.
+Fuente: transcripción, líneas 50–52.
+
+R26 — Entorno inicial [confirmado_reunion_actualizado_usuario]
+La reunión propone empezar en servidores propios al no tener acceso al hosting del cliente; la solicitud actual concreta desarrollo completamente local.
+Implicación: Seguir local ahora; acceso de hosting será dependencia de la fase de producción, no de la investigación.
+Fuente: transcripción, líneas 163–163.
+Fuente: solicitud del usuario, En local completamente.
+
+R27 — Organización [confirmado]
+Francesca lleva seguimiento de la web y redacción; Rafa desarrolla. Eloy lleva aspectos comerciales.
+Implicación: No asignar nombres reales a cada Speaker sin verificación; no es necesario para implementar.
+Fuente: transcripción, líneas 9–9.
+Fuente: transcripción, líneas 21–21.
+Fuente: transcripción, líneas 164–164.
+
+PENDIENTES
+
+P01 — Lista final y número de plantas con ficha
+Confirmar las tres de Destacados y el listado exacto de Colección Especial; no tomar 6–7 o 12 como inventario definitivo.
+Responsable: Equipo de cliente / Francesca.
+Impacto: Carga final de productos; permite construir la plantilla con ejemplos.
+
+P02 — Datos completos por ficha
+Textos, nombres, imágenes, variantes/características y meses reales de disponibilidad por especie según campos del wireframe.
+Responsable: Equipo de cliente / especialista italiano.
+Impacto: Contenido definitivo y validación de fichas.
+
+P03 — Aspecto de disponibilidad mensual
+Etiqueta final e interacción. Iniciales y tooltip son una propuesta conversada, todavía no un diseño cerrado.
+Responsable: Diseño / desarrollo / cliente.
+Impacto: Acabado final del componente, no su estructura.
+
+P04 — Testimonios
+Decidir inclusión, número y textos/autores si se incluyen.
+Responsable: Cliente / Francesca.
+Impacto: Activación final del bloque.
+
+P05 — Textos italianos validados
+Entrega conjunta y asignación a páginas/bloques; especialista revisará el italiano.
+Responsable: Francesca / especialista.
+Impacto: Aprobación editorial; permite Lorem Ipsum en local.
+
+P06 — Producción inglesa
+Elegir entrega de traducciones o traducción automática con revisión. La mención VML no confirma WPML ni otra herramienta.
+Responsable: Cliente / Francesca / desarrollo.
+Impacto: Carga y validación EN, no validación inicial IT.
+
+P07 — Fotografía y vídeo
+Recibir originales finales y mapa de dónde se utiliza cada archivo, con recortes responsive.
+Responsable: Equipo de diseño / cliente.
+Impacto: Fidelidad y rendimiento finales; permite marcadores.
+
+P08 — Banner y etiqueta Capolavoro
+Rafa facilita ancho útil y relación de aspecto; el equipo entrega piezas de diseño y posibles adaptaciones móviles.
+Responsable: Desarrollo y diseño.
+Impacto: Acabado del bloque especial.
+
+P09 — Enlaces externos
+URL reales de área reservada y disponibilidad semanal; comprobar si existe una URL común o destinos por producto.
+Responsable: Cliente.
+Impacto: Validación de esos enlaces; permite identificarlos como pendientes en local.
+
+P10 — Catálogos PDF
+Archivos definitivos, nombres por idioma y asignación a CTA.
+Responsable: Cliente / diseño.
+Impacto: Descargas reales.
+
+P11 — Ajustes móviles
+Revisar primera versión responsive antes de decidir ocultaciones; no hay lista aprobada de bloques ocultos.
+Responsable: Cliente / diseño.
+Impacto: Validación responsive final.
+
+P12 — Editor WordPress
+Elegir tema, bloques y campos editables. Elementor aparece como ejemplo y no constituye una exigencia aprobada.
+Responsable: Desarrollo / usuario.
+Impacto: Conversión a WordPress; no la investigación ni el prototipo local.
+
+P13 — Contacto y contenido legal
+Si el wireframe incluye formulario: confirmar campos, destinatario y comportamiento. Datos societarios, textos legales y consentimiento se revisarán con el contenido final. No aparecen requisitos concretos de backend en la reunión.
+Responsable: Cliente / desarrollo.
+Impacto: Funcionamiento real del formulario y publicación; no la maquetación.
+
+P14 — Producción
+Accesos de hosting, dominio, instalación existente, copia y migración se concretan al llegar a la fase final.
+Responsable: Cliente / usuario.
+Impacto: Despliegue, no el trabajo local.
+
+CONTRADICCIONES Y ERRORES DE INTERPRETACIÓN
+
+C01 — Tres categorías principales en notas; enumeración de cuatro.
+Usar cuatro: confirmado explícitamente en l.66 y l.157.
+
+C02 — Los 3 primeros ... destacados y colecciones especiales (l.68).
+Solo dos categorías con ficha, conforme aclaración l.78–100. No crear una tercera categoría con detalle.
+
+C03 — En español principal e inglés en secundario (l.143).
+Italiano principal e inglés secundario: instrucción explícita actual del usuario y l.139–145.
+
+C04 — Esas fotos, hortensia y anturios (l.92); pothos se menciona en ejemplo de cambio (l.83).
+Hortensia y anturios son identificaciones claras de la transcripción; tercera especie no queda confirmada solo por el audio transcrito. Verificar visualmente con el PDF y después con listado final. Ficus es un ejemplo hipotético.
+
+C05 — Capolaboro / Topologo (l.116 y l.119).
+Las notas del usuario lo normalizan a Capolavoro. Verificar texto exacto y grafismo en PDF o arte final.
+
+C06 — Traductor de VML (l.143).
+Podría aludir a una herramienta de traducción pero no acredita elección de plugin. No registrar WPML como requisito confirmado.
+
+C07 — Hacienda y cuando compres un producto (l.151–155).
+Se habla de navegación de empresa y menú de productos; no demuestra administración tributaria ni comercio electrónico. Nombre italiano exacto en wireframe.
+
+C08 — Entre hoy y mañana y reunión a las 12:30 (l.166).
+Son referencias relativas de una reunión sin fecha establecida. No convertirlas en una fecha actual o compromiso nuevo.
+
+C09 — Proyectos inferiores a 2000 son pago único (l.164).
+Es una condición comercial general; no establece precio exacto, alcance extra ni fecha de pago de este proyecto.
+
+CRITERIOS DE ACEPTACIÓN RECOMENDADOS, NO ACUERDOS DE REUNIÓN
+
+A01 — Navegación
+Todos los enlaces del mapa de páginas llevan al destino previsto; menús operables con ratón, teclado y móvil; el lateral mantiene acceso a todas las subpáginas de empresa.
+Propuesta: Detalles de accesibilidad y gesto táctil.
+
+A02 — Galerías
+Las imágenes de Planta Verde/Flor abren lightbox, con cierre visible, tecla Escape y devolución de foco; no llevan a una ficha vacía.
+Propuesta: Mecanismos de teclado y gestión de foco son recomendación de implementación.
+
+A03 — Meses
+Mostrar doce posiciones con etiquetas italianas claras y estado disponible distinguible además de color. Preferir abreviaturas de tres letras a iniciales ambiguas. Si se usa tooltip debe funcionar también con foco y toque.
+Propuesta: La elección de abreviaturas de tres letras es propuesta técnica; iniciales y tooltip tampoco estaban cerrados.
+
+A04 — Contenido de prueba
+Usar textos y medios provisionales con longitud y proporciones próximas a las previstas; mantenerlos identificados para no publicarlos por error.
+Propuesta: Método de identificación de contenido provisional.
+
+A05 — Preparación WordPress
+Separar datos y presentación, usar una plantilla de ficha común y un esquema explícito de meses, colecciones, galerías, CTA y traducciones; definir en la fase WordPress quién edita cada bloque.
+Propuesta: Modelo concreto de datos, plugin de campos y editor.
+
+A06 — Validación visual
+Aprobar primero home en escritorio y móvil, después familias de plantillas y páginas; cotejar el orden y jerarquía de los bloques con el wireframe y tokens con el brand book.
+Propuesta: Orden exacto de validación entre familias.
+
+A07 — Idiomas
+Raíz en italiano y ruta /en/ para inglés; el selector conserva la página equivalente cuando exista traducción.
+Propuesta: La estructura de URL es propuesta y se deberá confirmar al elegir solución WordPress.
+
+A08 — Prototipo local
+Formulario y enlaces externos incompletos se identifican con estado pendiente; no fingir un envío ni inventar URL reales.
+Propuesta: Presentación concreta del estado pendiente.
+
+FASES PROPUESTAS, SIN FECHAS NI ESTIMACIÓN DE HORAS
+
+0 — Investigación y cierre del alcance
+Inventario de fuentes, sitemap, bloques, flujos, tokens visuales, matriz de contenido y decisiones pendientes.
+Salida: Dossier local revisable.
+Dependencias: Los tres PDF, notas y transcripción ya disponibles.
+
+1 — Base local y home en italiano
+Preparar estructura local, estilos de marca, header/footer y home fiel al diseño con marcadores de contenido.
+Salida: Home navegable en escritorio y móvil.
+Dependencias: Revisión del dossier; logo/fuentes web originales o sustitución provisional explícita.
+
+2 — Páginas informativas y contacto
+Implementar familia de empresa con lateral y subpáginas, servicios y contacto según sitemap real.
+Salida: Navegación completa y bloques reutilizables.
+Dependencias: Base común; el orden contacto/empresa puede ajustarse con el usuario.
+
+3 — Productos y comportamientos
+Crear cuatro categorías, plantilla de ficha para dos categorías y galerías lightbox para dos; representar disponibilidad mensual y reservar CTA externos/descargas.
+Salida: Flujos de producto completos con datos de ejemplo.
+Dependencias: Campos del wireframe; listas finales solo para carga definitiva.
+
+4 — Contenido y validación en italiano
+Sustituir marcadores por textos, fotografía, vídeo y bloques especiales; ajustar responsive y decidir testimonios.
+Salida: Versión italiana revisada por especialista y aprobada visualmente.
+Dependencias: Entregas P01–P11.
+
+5 — WordPress editable y segunda lengua
+Convertir componentes y datos al editor elegido; cargar inglés con revisión y verificar equivalencias, formularios, descargas y enlaces.
+Salida: Sitio editable validado en entorno local o staging acordado.
+Dependencias: Elección de editor y traducción; italiano validado antes de traducir. La conversión puede adelantarse tras aprobar estructuras si el usuario lo decide.
+
+6 — Producción
+Preparar respaldo y migración, publicar cuando corresponda y verificar páginas, formulario, idiomas y recursos en el dominio final.
+Salida: Sitio publicado y comprobado.
+Dependencias: Accesos y acuerdo de publicación; contenido final y WordPress validados.
+
+FUERA DEL ALCANCE ACTUAL O NO SOLICITADO
+Publicar ahora
+Comercio electrónico, cesta, checkout o pagos web
+Autenticación o panel privado propio para el área reservada
+Sincronización de stock o disponibilidad semanal
+Importar reseñas de Google
+Rotación estacional automática de productos
+Versión en español
+Base oculta de fichas de todas las plantas
+Elección obligatoria de Elementor o WPML
+Diferentes textos editoriales por dispositivo
+
+Se mencionó pago único para proyectos inferiores a 2.000 euros; no se dispone del precio de este proyecto, calendario de cobro ni contrato. No condiciona el análisis técnico.

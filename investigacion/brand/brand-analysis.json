@@ -1,0 +1,311 @@
+{
+  "source": "FESAEECT0001_Brand_Book_Pontini_WEB.pdf",
+  "pages": 52,
+  "page_reference": "Número físico de PDF, coincide con el folio visible en las páginas de especificaciones",
+  "colors": [
+    {
+      "name": "Nero",
+      "role": "primary",
+      "hex": "#101921",
+      "rgb": [
+        16,
+        25,
+        33
+      ],
+      "cmyk": [
+        60,
+        40,
+        30,
+        100
+      ],
+      "pantone": "Black 6 C",
+      "page": 36
+    },
+    {
+      "name": "Oro",
+      "role": "primary",
+      "hex": "#B0943D",
+      "rgb": [
+        176,
+        148,
+        61
+      ],
+      "cmyk": [
+        12,
+        25,
+        83,
+        21
+      ],
+      "pantone": "4021 CP",
+      "page": 36,
+      "rule": "Tinta plana no metalizada para el color corporativo; respetar HEX/RGB en digital."
+    },
+    {
+      "name": "Terracotta",
+      "role": "secondary",
+      "hex": "#B65343",
+      "rgb": [
+        182,
+        83,
+        67
+      ],
+      "cmyk": [
+        3,
+        73,
+        72,
+        19
+      ],
+      "pantone": "2436 CP",
+      "page": 37
+    },
+    {
+      "name": "Verde",
+      "role": "secondary",
+      "hex": "#5C7E54",
+      "rgb": [
+        92,
+        126,
+        84
+      ],
+      "cmyk": [
+        58,
+        15,
+        71,
+        30
+      ],
+      "pantone": "2265 CP",
+      "page": 37
+    },
+    {
+      "name": "Blanco",
+      "role": "secondary",
+      "hex": "#F5F5F2",
+      "rgb": [
+        245,
+        245,
+        242
+      ],
+      "cmyk": [
+        0,
+        0,
+        2,
+        5
+      ],
+      "pantone": null,
+      "page": 37
+    }
+  ],
+  "typography": [
+    {
+      "family": "Outfit",
+      "use": "Textos, subtítulos, datos técnicos y lectura",
+      "weights_rule": "Todas las variantes, incluidas Regular/Medium/SemiBold/Bold",
+      "page": 34,
+      "web_font_files_available": false
+    },
+    {
+      "family": "Acta Display",
+      "weight": "Bold",
+      "use": "Títulos, cabeceras y mensajes breves de impacto; no texto largo ni tamaños pequeños",
+      "page": 34,
+      "web_font_files_available": false
+    },
+    {
+      "family": "Quickbrush",
+      "use": "Claim de Capolavoro!, palabras/frases breves y acentos decorativos; uso limitado, no información esencial",
+      "page": 34,
+      "web_font_files_available": false
+    }
+  ],
+  "logos": [
+    {
+      "name": "Consorzio Vivai Pontini principal",
+      "page": 20,
+      "minimum_width_px": 75,
+      "minimum_width_mm": 20,
+      "minimum_rule_page": 28,
+      "clear_space": "Altura de la V de VIVAI (X) en los cuatro lados",
+      "structure": "Vertical/apilada: CONSORZIO, símbolo+VIVAI, PONTINI",
+      "source_representation": "Vector PDF, no archivo SVG original"
+    },
+    {
+      "name": "Consorzio Vivai Pontini horizontal",
+      "page": 22,
+      "minimum_width_px": 150,
+      "minimum_width_mm": 40,
+      "minimum_rule_page": 28,
+      "clear_space": "Altura de la V de VIVAI (X) en los cuatro lados",
+      "source_representation": "Vector PDF, no archivo SVG original"
+    },
+    {
+      "name": "Isotipo",
+      "page": 24,
+      "minimum_width_px": null,
+      "use": "Autónomo si la marca ya es identificable o falta espacio",
+      "source_representation": "Vector PDF, no archivo SVG original"
+    },
+    {
+      "name": "Capolavoro!",
+      "page": 30,
+      "minimum_width_px": 132,
+      "minimum_width_mm": 35,
+      "minimum_rule_page": 32,
+      "clear_space": "Altura de la c de Capolavoro! en los cuatro lados",
+      "claim": "The Art of Italian Plants",
+      "claim_rule": "Solo si es legible; omitir claim en espacios reducidos",
+      "naming_rule": "En textos: Capolavoro!, C mayúscula y exclamación. No traducir, abreviar ni modificar. Minúsculas solo en logotipo.",
+      "naming_rule_page": 31,
+      "source_representation": "Grafismo PDF con textura oro incrustada; no archivo de logo web original"
+    }
+  ],
+  "logo_rules": {
+    "pages": [
+      21,
+      23,
+      25,
+      26,
+      27,
+      29,
+      32,
+      33
+    ],
+    "white_background": "Principal preferente; monocromático negro u oro si hace falta.",
+    "black_background": "Monocromático blanco u oro, o bicolor autorizado.",
+    "gold_background": "Monocromático negro/blanco o bicolor autorizado.",
+    "other_backgrounds": "Preferir monocromático negro/blanco con buen contraste.",
+    "photos": "Principal en foto clara y limpia; blanco en foto oscura; negro si la principal pierde contraste en foto clara. Si el detalle de la foto impide lectura: recuadro blanco al 90% solo si necesario (p27).",
+    "prohibited": [
+      "Deformar o comprimir",
+      "Cambiar proporciones/posición/composición",
+      "Colores o tipografías no previstos",
+      "Sombras, contornos, degradados u otros efectos",
+      "Fondos sin contraste",
+      "Invadir área de respeto",
+      "Tamaño inferior al mínimo",
+      "Recortar o separar elementos"
+    ],
+    "capolavoro": "Principal oro y firma Vivai Pontini negra; monocromático negro sobre claro/blanco sobre oscuro si necesario. Firma de Consorzio Vivai Pontini debe acompañar las aplicaciones de producto (p31)."
+  },
+  "visual_universe": {
+    "page": 35,
+    "themes": [
+      "Naturaleza y producción vivaística",
+      "Mármol claro con vetas grises y doradas",
+      "Arte y escultura clásica",
+      "Texturas tierra, terracota y oro",
+      "Interiores cuidados con plantas"
+    ],
+    "rule": "Los recursos deben valorar el producto sin dominarlo. La paleta secundaria es complementaria, no sustitutiva (p37)."
+  },
+  "reference_assets": [
+    {
+      "path": "recursos-referencia/p35-Im12.png",
+      "kind": "Mármol de moodboard",
+      "width": 308,
+      "height": 685,
+      "source_mode": "CMYK",
+      "output_mode": "RGB",
+      "status": "Derivado de referencia, no textura maestra a gran resolución ni tile continuo"
+    },
+    {
+      "path": "recursos-referencia/p37-Im2.png",
+      "kind": "Mármol de paleta",
+      "width": 271,
+      "height": 541,
+      "source_mode": "CMYK",
+      "output_mode": "RGB",
+      "status": "Derivado de referencia, no textura maestra"
+    },
+    {
+      "path": "recursos-referencia/p31-Im1.png",
+      "kind": "Mármol de etiqueta",
+      "width": 286,
+      "height": 161,
+      "source_mode": "CMYK",
+      "output_mode": "RGB",
+      "status": "Derivado de referencia, resolución reducida"
+    },
+    {
+      "path": "recursos-referencia/p30-Im0.png",
+      "kind": "Textura oro usada en grafismo Capolavoro!",
+      "width": 1172,
+      "height": 684,
+      "source_mode": "CMYK",
+      "output_mode": "RGB",
+      "status": "No es el logo completo y no reemplaza el oro plano corporativo"
+    },
+    {
+      "path": "recursos-referencia/p31-Im0.png",
+      "kind": "Ejemplo producto Sansevieria con etiqueta",
+      "width": 772,
+      "height": 1530,
+      "source_mode": "RGBA",
+      "output_mode": "RGBA",
+      "status": "Recorte de ejemplo de aplicación, no foto final de catálogo"
+    }
+  ],
+  "audience": {
+    "pages": [
+      15,
+      16,
+      17
+    ],
+    "scope": "Comunicación comercial de Consorzio Vivai Pontini exclusivamente B2B",
+    "segments": [
+      "Viveros productores de semielaborado/prefinito",
+      "Mayoristas y distribuidores",
+      "Garden centers",
+      "Futuro: GDO y grandes superficies"
+    ],
+    "capolavoro": "Marca destinada a reconocimiento por consumidor final dentro de cadena profesional; no implica tienda B2C web."
+  },
+  "tone": {
+    "pages": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ],
+    "corporate": [
+      "Directo y concreto",
+      "Italiano en raíces y europeo en visión",
+      "Autorizado y auténtico",
+      "Esencial sin ostentación"
+    ],
+    "capolavoro": [
+      "Refinado y elegante",
+      "Sensorial y evocador",
+      "Artesano y apasionado",
+      "Estético e inspirador"
+    ],
+    "avoid": [
+      "Elitismo y distancia",
+      "Exceso de tecnicismo en colección Capolavoro!",
+      "Agresividad comercial y discurso de precio/promoción"
+    ]
+  },
+  "brand_facts_in_source": {
+    "page11": {
+      "production_area_m2": 170000,
+      "heated_greenhouse_area_m2": 120000,
+      "varieties": "+300"
+    },
+    "page50": {
+      "pots": "3,5 millones"
+    },
+    "status": "Datos presentes en manual; usar copia final validada antes de publicación."
+  },
+  "missing_deliverables": [
+    "Logotipos maestros SVG oficiales y variantes",
+    "Favicon/isotipo exportado",
+    "Archivos web de fuentes y condiciones de uso",
+    "Mármol maestro en resolución suficiente para hero/fondos y recortes responsive",
+    "Banners especiales Capolavoro! diseñados por agencia",
+    "Fotografías y vídeos definitivos con encuadres por bloque",
+    "Iconografía final"
+  ],
+  "available_files_scope": "Carpeta de proyecto contenía solo los tres PDF al inicio de investigación."
+}

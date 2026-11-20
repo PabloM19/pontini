@@ -1,0 +1,186 @@
+{
+  "checks": [
+    {
+      "slug": "dipladenia",
+      "width": 1440,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "dipladenia.html",
+      "position": "sticky"
+    },
+    {
+      "slug": "dipladenia",
+      "width": 1024,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "dipladenia.html",
+      "position": "sticky"
+    },
+    {
+      "slug": "dipladenia",
+      "width": 801,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "dipladenia.html",
+      "position": "sticky"
+    },
+    {
+      "slug": "dipladenia",
+      "width": 768,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "dipladenia.html",
+      "position": "static"
+    },
+    {
+      "slug": "dipladenia",
+      "width": 390,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "dipladenia.html",
+      "position": "static"
+    },
+    {
+      "slug": "dipladenia",
+      "width": 320,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "dipladenia.html",
+      "position": "static"
+    },
+    {
+      "slug": "monstera",
+      "width": 1440,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "monstera.html",
+      "position": "sticky"
+    },
+    {
+      "slug": "monstera",
+      "width": 1024,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "monstera.html",
+      "position": "sticky"
+    },
+    {
+      "slug": "monstera",
+      "width": 801,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "monstera.html",
+      "position": "sticky"
+    },
+    {
+      "slug": "monstera",
+      "width": 768,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "monstera.html",
+      "position": "static"
+    },
+    {
+      "slug": "monstera",
+      "width": 390,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "monstera.html",
+      "position": "static"
+    },
+    {
+      "slug": "monstera",
+      "width": 320,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "monstera.html",
+      "position": "static"
+    },
+    {
+      "slug": "phalaenopsis",
+      "width": 1440,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "phalaenopsis.html",
+      "position": "sticky"
+    },
+    {
+      "slug": "phalaenopsis",
+      "width": 1024,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "phalaenopsis.html",
+      "position": "sticky"
+    },
+    {
+      "slug": "phalaenopsis",
+      "width": 801,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "phalaenopsis.html",
+      "position": "sticky"
+    },
+    {
+      "slug": "phalaenopsis",
+      "width": 768,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "phalaenopsis.html",
+      "position": "static"
+    },
+    {
+      "slug": "phalaenopsis",
+      "width": 390,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "phalaenopsis.html",
+      "position": "static"
+    },
+    {
+      "slug": "phalaenopsis",
+      "width": 320,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "phalaenopsis.html",
+      "position": "static"
+    }
+  ],
+  "errors": [],
+  "interactions": "Month click and keyboard, availability/download dialogs, all six inter-sheet sidebar links, three catalog cards: passed"
+}

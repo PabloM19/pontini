@@ -1,0 +1,9 @@
+* text=auto
+*.pdf binary
+*.ttf binary
+*.png binary
+*.jpg binary
+*.webp binary
+# Preserve whitespace from the original PDF text extracts.
+investigacion/**/*.txt -whitespace
+assets/fonts/OFL-Outfit.txt -whitespace

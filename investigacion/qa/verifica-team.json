@@ -1,0 +1,60 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "cards": 8,
+      "language": "it",
+      "active": "Il team",
+      "sidebar": "sticky",
+      "columns": 2
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "cards": 8,
+      "language": "it",
+      "active": "Il team",
+      "sidebar": "sticky",
+      "columns": 1
+    },
+    {
+      "width": 801,
+      "overflow": false,
+      "cards": 8,
+      "language": "it",
+      "active": "Il team",
+      "sidebar": "sticky",
+      "columns": 1
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "cards": 8,
+      "language": "it",
+      "active": "Il team",
+      "sidebar": "static",
+      "columns": 1
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "cards": 8,
+      "language": "it",
+      "active": "Il team",
+      "sidebar": "static",
+      "columns": 1
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "cards": 8,
+      "language": "it",
+      "active": "Il team",
+      "sidebar": "static",
+      "columns": 1
+    }
+  ],
+  "errors": [],
+  "interactions": "Telephone/email placeholders, Escape, contact CTA, links from all existing pages passed"
+}

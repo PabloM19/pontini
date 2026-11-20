@@ -1,0 +1,60 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "blocks": 4,
+      "energyMedia": 2,
+      "lang": "it",
+      "sidebar": "sticky",
+      "active": "ECO investimenti"
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "blocks": 4,
+      "energyMedia": 2,
+      "lang": "it",
+      "sidebar": "sticky",
+      "active": "ECO investimenti"
+    },
+    {
+      "width": 801,
+      "overflow": false,
+      "blocks": 4,
+      "energyMedia": 2,
+      "lang": "it",
+      "sidebar": "sticky",
+      "active": "ECO investimenti"
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "blocks": 4,
+      "energyMedia": 2,
+      "lang": "it",
+      "sidebar": "static",
+      "active": "ECO investimenti"
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "blocks": 4,
+      "energyMedia": 2,
+      "lang": "it",
+      "sidebar": "static",
+      "active": "ECO investimenti"
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "blocks": 4,
+      "energyMedia": 2,
+      "lang": "it",
+      "sidebar": "static",
+      "active": "ECO investimenti"
+    }
+  ],
+  "errors": [],
+  "interactions": "Video placeholder, Escape, contact CTA and navigation from all previous pages: passed"
+}

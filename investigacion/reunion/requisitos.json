@@ -1,0 +1,835 @@
+{
+  "titulo": "Requisitos de la reunión de Pontini para preparar el desarrollo web",
+  "fecha_analisis": "2026-11-19",
+  "fecha_reunion": "no consta; no inferir por las referencias hoy y mañana",
+  "fuentes": {
+    "transcripcion": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+    "notas": "Mensaje del usuario, apartado notas vivai dudas",
+    "solicitud": "Mensaje del usuario en este chat"
+  },
+  "precedencia": "La instrucción explícita actual del usuario prevalece sobre deslices de la transcripción. Las aclaraciones posteriores de la reunión resuelven las primeras hipótesis. El PDF aporta rótulos y estructura exactos.",
+  "requisitos": [
+    {
+      "id": "R01",
+      "tema": "Alcance actual",
+      "estado": "confirmado_usuario",
+      "requisito": "Investigar y reunir toda la documentación para preparar el desarrollo. La implementación del primer borrador local vendrá después de este análisis.",
+      "fuentes": [
+        {
+          "fuente": "solicitud_usuario",
+          "apartado": "De momento lo que quiero es que reúnas toda la información"
+        }
+      ],
+      "implicacion": "Entregar inventario, estructura, flujos, reglas visuales, pendientes y fases; no publicar ni desplegar."
+    },
+    {
+      "id": "R02",
+      "tema": "Ruta de entrega",
+      "estado": "confirmado_usuario",
+      "requisito": "Desarrollar primero en local con HTML/CSS/JavaScript u otra solución local apropiada, después convertir a WordPress editable y finalmente producción.",
+      "fuentes": [
+        {
+          "fuente": "solicitud_usuario",
+          "apartado": "Desarrollarlo primero en local, luego pasarlo a WordPress para que sea editable y luego ya subirlo a producción"
+        }
+      ],
+      "implicacion": "Preparar componentes y contenidos reutilizables para WordPress; aún no hay constructor o stack aprobado."
+    },
+    {
+      "id": "R03",
+      "tema": "Publicación",
+      "estado": "confirmado_usuario",
+      "requisito": "Trabajo completamente local en esta etapa, sin publicar en GPT Sites ni otro destino.",
+      "fuentes": [
+        {
+          "fuente": "solicitud_usuario",
+          "apartado": "Sin publicar en GPT Sites ni nada de eso, en local completamente"
+        }
+      ],
+      "implicacion": "La autorización actual no incluye despliegue público."
+    },
+    {
+      "id": "R04",
+      "tema": "Fidelidad visual",
+      "estado": "confirmado",
+      "requisito": "Seguir la estética del brand book y la home diseñada; el wireframe completo rige la estructura de las demás páginas.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            36,
+            38
+          ],
+          "extracto": "Speaker A: Eso lo pasaremos. Y luego no os vamos a diseñar ninguna página más, pero sí que, porque bueno, ahí ya tenéis. Hombre, con esto. Lo que es el estilo, tienes el brand book, que te pasé el brand book.\nSpeaker B: Sí, eso sí, tengo también el wireframe que tienes que seguirlo con la misma estética también.\nSpeaker A: Correcto, seguirlo con la misma estética. En el brand book tienes, por ejemplo, colores, tipografías, recursos. Gráficos, lo que estará el mármol incluso estará ahí también. Eso no está, te lo pasé anteriormente. Vale."
+        },
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            50,
+            52
+          ],
+          "extracto": "Speaker A: Vale, entonces tienes el manual de marca, tienes el diseño de la primera, de la home. Faltarán los textos, que ya tenemos algunas secciones Validadas, revisadas y validadas por el cliente. Otras están revisándolas ahora mismo, pero creo que te lo vamos a pasar todo junto.\nSpeaker B: Vale, mejor, porque así ya empezamos y lo hacemos todo, ¿no?\nSpeaker A: A no ser que me digas lo contrario. Lo que puedes hacer es quedando las estructuras, bloques, tal y cual, poniendo sin texto y luego ya los cargas. Y luego lo último que haremos será la recopilación de los elementos gráficos, fundamentalmente las fotos y los vídeos que vaya a ir en cada en cada sitio, que también lo haremos."
+        },
+        {
+          "fuente": "solicitud_usuario",
+          "apartado": "Con el mismo estilo ... cómo quieren que sea la página de home, todo tal cual"
+        }
+      ],
+      "implicacion": "La maqueta local es una estructura con identidad real, no solo cajas grises genéricas."
+    },
+    {
+      "id": "R05",
+      "tema": "Contenido provisional",
+      "estado": "confirmado",
+      "requisito": "Se puede avanzar con bloques y estructura sin textos definitivos; el usuario permite Lorem Ipsum.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            50,
+            52
+          ],
+          "extracto": "Speaker A: Vale, entonces tienes el manual de marca, tienes el diseño de la primera, de la home. Faltarán los textos, que ya tenemos algunas secciones Validadas, revisadas y validadas por el cliente. Otras están revisándolas ahora mismo, pero creo que te lo vamos a pasar todo junto.\nSpeaker B: Vale, mejor, porque así ya empezamos y lo hacemos todo, ¿no?\nSpeaker A: A no ser que me digas lo contrario. Lo que puedes hacer es quedando las estructuras, bloques, tal y cual, poniendo sin texto y luego ya los cargas. Y luego lo último que haremos será la recopilación de los elementos gráficos, fundamentalmente las fotos y los vídeos que vaya a ir en cada en cada sitio, que también lo haremos."
+        },
+        {
+          "fuente": "solicitud_usuario",
+          "apartado": "Se puede rellenar todo con Lorem Ipsum"
+        }
+      ],
+      "implicacion": "Mantener etiquetas de navegación funcionales en italiano y contenido editorial de prueba sustituible."
+    },
+    {
+      "id": "R06",
+      "tema": "Idiomas",
+      "estado": "confirmado_usuario_y_contexto",
+      "requisito": "Italiano principal e inglés secundario; sin versión española.",
+      "fuentes": [
+        {
+          "fuente": "solicitud_usuario",
+          "apartado": "El idioma principal debe ser el italiano"
+        },
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            138,
+            145
+          ],
+          "extracto": "Speaker C: Y bueno, tenemos el editor de idiomas también, que también hay una versión en inglés.\nSpeaker A: Nosotros los textos iniciales los pasamos en italiano y luego haremos las traducciones.\nSpeaker B: Vale, en español no, ¿verdad? ¿Italiano e inglés?\nSpeaker A: En español no.\nSpeaker B: Vale, perfecto. Si luego por lo que sea queréis...\nSpeaker A: En español principal e inglés en secundario. Vale. Luego veremos cómo hacemos las traducciones, si las hacemos a través del traductor traductor de VML y luego refinamos, o te las pasamos ya traducidas, te pasamos los mismos textos en italiano en inglés para que los maquetéis.\nSpeaker B: Vale, vale. Yo creo que incluso lo que podemos hacer a nivel inicial es validar primero todo el wireframe en italiano y una vez esté todo hecho ya traducirlo, ¿no?\nSpeaker A: Vale, ok."
+        }
+      ],
+      "implicacion": "Resolver el desliz español principal de la línea 143 en favor de la instrucción explícita del usuario."
+    },
+    {
+      "id": "R07",
+      "tema": "Secuencia de idiomas",
+      "estado": "confirmado",
+      "requisito": "Validar el wireframe completo en italiano primero y traducir después.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            144,
+            145
+          ],
+          "extracto": "Speaker B: Vale, vale. Yo creo que incluso lo que podemos hacer a nivel inicial es validar primero todo el wireframe en italiano y una vez esté todo hecho ya traducirlo, ¿no?\nSpeaker A: Vale, ok."
+        }
+      ],
+      "implicacion": "Preparar estructura bilingüe desde el inicio, sin asumir que el contenido inglés ya está aprobado."
+    },
+    {
+      "id": "R08",
+      "tema": "Revisión lingüística",
+      "estado": "confirmado_usuario",
+      "requisito": "Los textos y revisiones en italiano serán supervisados por un especialista.",
+      "fuentes": [
+        {
+          "fuente": "solicitud_usuario",
+          "apartado": "Todas las revisiones de la web van a estar supervisadas por un especialista en italiano"
+        }
+      ],
+      "implicacion": "Etiquetar contenido italiano provisional y reservar validación editorial antes de producción."
+    },
+    {
+      "id": "R09",
+      "tema": "Categorías de producto",
+      "estado": "confirmado",
+      "requisito": "Existen cuatro categorías: Destacados, Colección Especial, Planta Verde y Planta de Flor. Los rótulos finales italianos deben tomarse del PDF.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            66,
+            66
+          ],
+          "extracto": "Speaker A: Destacados, la colección especial, planta verde y planta de flor."
+        },
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            157,
+            157
+          ],
+          "extracto": "Speaker A: A las 4 categorías."
+        }
+      ],
+      "implicacion": "No convertir el desliz tres categorías de las notas o tres primeros de la transcripción en una regla."
+    },
+    {
+      "id": "R10",
+      "tema": "Fichas de producto",
+      "estado": "confirmado",
+      "requisito": "Destacados y Colección Especial tienen fichas completas por planta.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            78,
+            88
+          ],
+          "extracto": "Speaker A: Planta verde y planta de flor tienen solo una página, pero al clicar no te vas a la ficha completa de esa especie, sino que te abre solamente la foto en grande.\nSpeaker B: Vale, vale, perfecto. Vale, y entonces todas van a tener una ficha, ¿no?, de detalle, pero solo las que salgan aquí se podrá ver.\nSpeaker A: Claro. Si tú clicas en fotos de una hortensia, verás que vas a una ficha.\nSpeaker B: Claro, pero por ejemplo, si yo pongo otra, por ejemplo, pues un ficus, porque quiero que ahora sea destacado, también va a tener ya su ficha hecha, ¿no? Lo que pasa es que no se va a ver.\nSpeaker A: No, si nosotros queremos que tenga ficha, la pondremos con estas dos, con feature o en especial.\nSpeaker B: Por eso digo, porque si tú, por ejemplo, quieres cambiar el pothos por otra, Esa otra también debe tener una ficha. Entonces, todas las plantas van a tener ficha, o sea, me he preguntado.\nSpeaker A: Todas las plantas de estas dos categorías sí. De estas dos categorías.\nSpeaker B: Vale, ¿y solo van a ser estas tres?\nSpeaker A: En fitur, en principio sí, son tres. Vale. Colección especial no sabemos cuántas son.\nSpeaker B: Vale, nos lo decís y ya está para saberlo, ¿sabes? Porque para desarrollar la ficha básicamente.\nSpeaker A: A lo mejor en total con ficha que puede haber doce como máximo."
+        },
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            100,
+            100
+          ],
+          "extracto": "Speaker A: Vale, vale, perfecto. Ella queremos que esté en la colección especial, que hagamos una ficha nueva."
+        }
+      ],
+      "implicacion": "Una plantilla de ficha reutilizable con registros editoriales para las plantas de esas dos categorías."
+    },
+    {
+      "id": "R11",
+      "tema": "Galerías de plantas",
+      "estado": "confirmado",
+      "requisito": "Planta Verde y Planta de Flor tienen una página de categoría con texto introductorio y galería; cada foto abre imagen grande en lightbox, sin ficha de especie.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            72,
+            78
+          ],
+          "extracto": "Speaker A: Clica en planta verde. Te vas a una página donde hay un brief, una Una tabla con fotografías, pero al clicar en cada una de ellas no vas a una ficha. Abre, lo que abre, abre, clica la primera, abre una galería, ¿no?\nSpeaker B: Un lightbox.\nSpeaker C: Quizás para reportarlo, como puedes agregar comentarios en el wireframe, estas cosas que te estamos diciendo te las puedes ir comentando punto por punto para acordarte cuando vas a desarrollar.\nSpeaker B: Sí, sí, sí.\nSpeaker C: Porque nosotros lo tenemos muy metido en la cabeza, pero—\nSpeaker B: Sí, esto luego lo voy a revisar ahora cuando colguemos y me voy a tomar anotaciones de todo.\nSpeaker A: Planta verde y planta de flor tienen solo una página, pero al clicar no te vas a la ficha completa de esa especie, sino que te abre solamente la foto en grande."
+        }
+      ],
+      "implicacion": "No crear fichas vacías o páginas de detalle para cada imagen de estas galerías."
+    },
+    {
+      "id": "R12",
+      "tema": "Destacados",
+      "estado": "confirmado_con_lista_pendiente",
+      "requisito": "En principio son tres plantas fijas. Hortensia y anturios se nombran claramente; la tercera debe confirmarse con el material visual/listado final.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            86,
+            92
+          ],
+          "extracto": "Speaker A: En fitur, en principio sí, son tres. Vale. Colección especial no sabemos cuántas son.\nSpeaker B: Vale, nos lo decís y ya está para saberlo, ¿sabes? Porque para desarrollar la ficha básicamente.\nSpeaker A: A lo mejor en total con ficha que puede haber doce como máximo.\nSpeaker B: Vale,\nSpeaker C: sí, por ahí igual hay incluso menos.\nSpeaker B: Vale, vale, vale.\nSpeaker A: De las principales que van a ser esas fotos, hortensia y anturios, está claro. Y la especial, pues no sé si van a haber 6, 7."
+        }
+      ],
+      "implicacion": "Pothos aparece en conversación; no fijarlo por esa frase aislada."
+    },
+    {
+      "id": "R13",
+      "tema": "Volumen de fichas",
+      "estado": "estimacion_reunion",
+      "requisito": "Se estima un máximo aproximado de doce fichas entre ambas categorías, probablemente menos. Colección Especial se estima en seis o siete, sin número cerrado.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            86,
+            92
+          ],
+          "extracto": "Speaker A: En fitur, en principio sí, son tres. Vale. Colección especial no sabemos cuántas son.\nSpeaker B: Vale, nos lo decís y ya está para saberlo, ¿sabes? Porque para desarrollar la ficha básicamente.\nSpeaker A: A lo mejor en total con ficha que puede haber doce como máximo.\nSpeaker B: Vale,\nSpeaker C: sí, por ahí igual hay incluso menos.\nSpeaker B: Vale, vale, vale.\nSpeaker A: De las principales que van a ser esas fotos, hortensia y anturios, está claro. Y la especial, pues no sé si van a haber 6, 7."
+        }
+      ],
+      "implicacion": "Es una estimación de alcance, no doce fichas confirmadas ni un límite técnico rígido de la web."
+    },
+    {
+      "id": "R14",
+      "tema": "Selección de productos",
+      "estado": "confirmado",
+      "requisito": "La selección responde a productos importantes de la empresa y no a rotación estacional o de Navidad.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            93,
+            100
+          ],
+          "extracto": "Speaker B: Claro, igual cambia, ¿no? La Navidad o algo así, ¿no?\nSpeaker A: No, no, no cambia Navidad.\nSpeaker B: Vale,\nSpeaker A: ok. No están ahí porque estén en su época.\nSpeaker B: Ah, ok, vale, vale, vale.\nSpeaker A: Los productos más importantes de la empresa.\nSpeaker B: Eso es lo que, eso vale, perfecto. Ahora sí, eso es lo que yo quería saber, porque digo, igual si hay una base de datos, me lo invento, de 50, 60 plantas, lo que sea, igual es como añadir un check a decir, vale, esta planta quiero que salga en colección especial, ¿sabes?\nSpeaker A: Vale, vale, perfecto. Ella queremos que esté en la colección especial, que hagamos una ficha nueva."
+        }
+      ],
+      "implicacion": "No programar cambios automáticos por temporada."
+    },
+    {
+      "id": "R15",
+      "tema": "Altas de fichas",
+      "estado": "confirmado",
+      "requisito": "Añadir una planta nueva a Destacados o Colección Especial requiere crear su ficha.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            81,
+            100
+          ],
+          "extracto": "Speaker B: Claro, pero por ejemplo, si yo pongo otra, por ejemplo, pues un ficus, porque quiero que ahora sea destacado, también va a tener ya su ficha hecha, ¿no? Lo que pasa es que no se va a ver.\nSpeaker A: No, si nosotros queremos que tenga ficha, la pondremos con estas dos, con feature o en especial.\nSpeaker B: Por eso digo, porque si tú, por ejemplo, quieres cambiar el pothos por otra, Esa otra también debe tener una ficha. Entonces, todas las plantas van a tener ficha, o sea, me he preguntado.\nSpeaker A: Todas las plantas de estas dos categorías sí. De estas dos categorías.\nSpeaker B: Vale, ¿y solo van a ser estas tres?\nSpeaker A: En fitur, en principio sí, son tres. Vale. Colección especial no sabemos cuántas son.\nSpeaker B: Vale, nos lo decís y ya está para saberlo, ¿sabes? Porque para desarrollar la ficha básicamente.\nSpeaker A: A lo mejor en total con ficha que puede haber doce como máximo.\nSpeaker B: Vale,\nSpeaker C: sí, por ahí igual hay incluso menos.\nSpeaker B: Vale, vale, vale.\nSpeaker A: De las principales que van a ser esas fotos, hortensia y anturios, está claro. Y la especial, pues no sé si van a haber 6, 7.\nSpeaker B: Claro, igual cambia, ¿no? La Navidad o algo así, ¿no?\nSpeaker A: No, no, no cambia Navidad.\nSpeaker B: Vale,\nSpeaker A: ok. No están ahí porque estén en su época.\nSpeaker B: Ah, ok, vale, vale, vale.\nSpeaker A: Los productos más importantes de la empresa.\nSpeaker B: Eso es lo que, eso vale, perfecto. Ahora sí, eso es lo que yo quería saber, porque digo, igual si hay una base de datos, me lo invento, de 50, 60 plantas, lo que sea, igual es como añadir un check a decir, vale, esta planta quiero que salga en colección especial, ¿sabes?\nSpeaker A: Vale, vale, perfecto. Ella queremos que esté en la colección especial, que hagamos una ficha nueva."
+        }
+      ],
+      "implicacion": "No suponer una base oculta de cincuenta o sesenta plantas con fichas preexistentes."
+    },
+    {
+      "id": "R16",
+      "tema": "Disponibilidad mensual",
+      "estado": "confirmado_semantica",
+      "requisito": "La ficha representa los meses del año en los que está disponible esa planta.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            105,
+            115
+          ],
+          "extracto": "Speaker C: Ah, sí. No me refiero a esos, me refiero dentro de la categoría Penteveti, por ejemplo. Ahí, ahí. Esta, la Hortensia, por ejemplo. Vale. ¿Ves que pone disponibilidad? Este texto, bueno, ese no es el definitivo.\nSpeaker A: Abajo de la foto horizontal.\nSpeaker B: Este,\nSpeaker C: ¿no? Sí, el texto, bueno, el texto disponibilidad ahora mismo no es el definitivo, ya te diremos cuál es, pero bueno, para que lo sepas, estos son los meses,\nSpeaker A: van\nSpeaker C: a ser los meses del año en los cuales va a estar disponible esa planta.\nSpeaker A: No hay todo el año, entonces, por ejemplo, si tengo de febrero a diciembre, entonces marcaremos\nSpeaker C: Entonces quizá no es hacer esos rectángulos tal cual, sino algo que a nivel de diseño se entienda que son meses. Igual la inicial del mes en italiano.\nSpeaker B: Sí, quizá poner aquí dentro, en vez de poner enero, pues poner e, como sería en castellano, lo mismo en italiano, aquí dentro.\nSpeaker C: Sí, algo para que sea muy claro que estamos hablando de los meses.\nSpeaker B: Y que yo creo que igual sería disponibilidad y abajo poner entre paréntesis el mes, y aquí que puedas pasar por encima el ratón y ponga enero, febrero, marzo, no sé. Esto ya le damos una vuelta, pero vale, vale, genial."
+        }
+      ],
+      "implicacion": "Separar este dato editorial de los enlaces a disponibilidad semanal; el ejemplo febrero-diciembre no es un calendario real de ninguna especie."
+    },
+    {
+      "id": "R17",
+      "tema": "Testimonios",
+      "estado": "confirmado_comportamiento_inclusion_pendiente",
+      "requisito": "Si se incluyen, los testimonios serán fijos y mantenidos editorialmente; pueden existir varios. Su inclusión sigue en discusión.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            53,
+            56
+          ],
+          "extracto": "Speaker B: Vale, perfecto. Yo tenía una duda, lo estaba viendo antes el wireframe para repasarlo un poco. Tiene una duda, a ver si lo encuentro aquí. Vale, estos testimonios deben ser fijos, deben beber de Google, o de dónde\nSpeaker A: serán fijos. Y está en discusión todavía si se ponen o no, pero\nSpeaker B: vale,\nSpeaker A: pero sí serán fijos, es decir, en un mantenimiento de la web. Pueden haber varios, por eso he puesto una flechita ahí."
+        }
+      ],
+      "implicacion": "No conectar reseñas a Google ni comprometer el bloque como obligatorio; la flecha indica posible navegación entre varios."
+    },
+    {
+      "id": "R18",
+      "tema": "Menús desplegables",
+      "estado": "confirmado",
+      "requisito": "Quiénes Somos, Productos y Servicio muestran sus opciones o categorías en desplegable. Productos muestra las cuatro categorías.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            147,
+            159
+          ],
+          "extracto": "Speaker A: ¿Habéis visto que en las páginas de Quiénes Somos, que es la primera, tiene como un submenú lateral?\nSpeaker B: Sí.\nSpeaker A: Vale, que es ese que tienes a la izquierda donde las subpáginas puedes ir desde ahí, no hace falta que vayas al menú del header, sino que desde ahí te puedes mover a las distintas páginas que tiene esa sección de Quiénes Somos.\nSpeaker B: Vale, sería interesante, ¿no? Que por ejemplo tú cuando clicas en quién somos va a haber una página de quién somos o directamente salta a esta.\nSpeaker A: A la de la hacienda.\nSpeaker B: Vale, perfecto.\nSpeaker A: Salta a esa. Hacienda, cuidado con hacienda, A lo mejor cuando pases justo por quiénes somos tiene que desplegarse esas opciones.\nSpeaker B: Perfecto.\nSpeaker A: Cuando compres un producto se tiene que desplegar tal.\nSpeaker B: Sí, planta esto, ¿no? Algún ejemplo y tal, planta verde, ¿no? Vale.\nSpeaker A: A las 4 categorías.\nSpeaker B: Vale.\nSpeaker C: Y lo mismo para servicio también, si hay que desplegar los precios de servicio."
+        }
+      ],
+      "implicacion": "La interacción exacta para táctil y teclado se define en implementación responsive."
+    },
+    {
+      "id": "R19",
+      "tema": "Navegación Quiénes Somos",
+      "estado": "confirmado",
+      "requisito": "La entrada de Quiénes Somos lleva a la página de la empresa, denominada hacienda en la conversación; sus subpáginas comparten un submenú lateral izquierdo.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            147,
+            153
+          ],
+          "extracto": "Speaker A: ¿Habéis visto que en las páginas de Quiénes Somos, que es la primera, tiene como un submenú lateral?\nSpeaker B: Sí.\nSpeaker A: Vale, que es ese que tienes a la izquierda donde las subpáginas puedes ir desde ahí, no hace falta que vayas al menú del header, sino que desde ahí te puedes mover a las distintas páginas que tiene esa sección de Quiénes Somos.\nSpeaker B: Vale, sería interesante, ¿no? Que por ejemplo tú cuando clicas en quién somos va a haber una página de quién somos o directamente salta a esta.\nSpeaker A: A la de la hacienda.\nSpeaker B: Vale, perfecto.\nSpeaker A: Salta a esa. Hacienda, cuidado con hacienda, A lo mejor cuando pases justo por quiénes somos tiene que desplegarse esas opciones."
+        }
+      ],
+      "implicacion": "Verificar el rótulo italiano exacto (probablemente Azienda) y sus subpáginas en el wireframe; no crear un hub adicional sin necesidad."
+    },
+    {
+      "id": "R20",
+      "tema": "Responsive",
+      "estado": "confirmado",
+      "requisito": "La web debe adaptarse a móvil. Las ocultaciones de bloques se decidirán tras revisar responsive; no se han pedido textos distintos por dispositivo.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            122,
+            128
+          ],
+          "extracto": "Speaker C: Y bueno, Rafa, como he llegado tarde, no sé si habéis comentado el tema de responsive para que se adapte a mobile, si eso lo habéis comentado ya.\nSpeaker A: Bueno, se da por hecho.\nSpeaker B: Yo quería preguntar también ¿Queréis que salga menos información en teléfono o queréis que salga la misma?\nSpeaker A: Es una buena\nSpeaker B: pregunta, ¿no? Porque es que el otro día hicimos un desarrollo y la persona nos decía, no, quiero que este bloque, este y este, no salga, y que este texto sea este en teléfono, porque si no se hace muy largo.\nSpeaker A: Ya, tanto como hilar tan fino como para hacer textos distintos de web y teléfono, no, pero sí que a lo mejor cuando veamos la versión responsive Responsibles de algunas páginas, así que a lo mejor te decimos que ocultarnos esto, vale, porque es too much,\nSpeaker B: vale. Sí, esto es fácil, incluso desde Elementor creo que te pone ocultar en vista tal y tú vas clicando, o sea, fácil, vale."
+        }
+      ],
+      "implicacion": "Tomar el mismo contenido como base y anotar cualquier cambio aprobado más adelante."
+    },
+    {
+      "id": "R21",
+      "tema": "Área reservada",
+      "estado": "confirmado_destino_pendiente",
+      "requisito": "Área reservada enlaza a una aplicación externa del cliente.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            129,
+            133
+          ],
+          "extracto": "Speaker A: Y luego hay algunos enlaces que van fuera, eso creo que lo hablé con él hoy en su momento, vale, sin\nSpeaker B: problema.\nSpeaker A: Por ejemplo, el área reservada, esto se va a un desarrollo que tienen ellos que está conectado con su\nSpeaker B: Vale, vale, vale,\nSpeaker A: perfecto. Hay botones de disponibilidad semanal, también tienen que ir a un desarrollo externo."
+        }
+      ],
+      "implicacion": "No construir autenticación, panel privado ni integración con su sistema en esta fase."
+    },
+    {
+      "id": "R22",
+      "tema": "Disponibilidad semanal",
+      "estado": "confirmado_destino_pendiente",
+      "requisito": "Los botones de disponibilidad semanal enlazan a un desarrollo externo.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            133,
+            137
+          ],
+          "extracto": "Speaker A: perfecto. Hay botones de disponibilidad semanal, también tienen que ir a un desarrollo externo.\nSpeaker B: Vale, vale, vale.\nSpeaker A: Los propios productos, esos botones que ves de color dorado.\nSpeaker B: Este.\nSpeaker A: Este, sí. Vale. Que todos los catálogos se van a descargar a un PDF."
+        }
+      ],
+      "implicacion": "No desarrollar consulta de stock, scraping o sincronización de inventario."
+    },
+    {
+      "id": "R23",
+      "tema": "Catálogos",
+      "estado": "confirmado_archivos_pendientes",
+      "requisito": "Los catálogos se descargan como PDF.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            137,
+            137
+          ],
+          "extracto": "Speaker A: Este, sí. Vale. Que todos los catálogos se van a descargar a un PDF."
+        }
+      ],
+      "implicacion": "Recibir archivos y su asignación a los botones; no son páginas de catálogo a programar por inferencia."
+    },
+    {
+      "id": "R24",
+      "tema": "Diseños especiales",
+      "estado": "confirmado_entrega_pendiente",
+      "requisito": "El equipo aportará el diseño de bloques especiales como la etiqueta o banner Capolavoro en dorado. Rafa debe concretar el ancho requerido.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            116,
+            121
+          ],
+          "extracto": "Speaker C: Y bueno, Rafa, lo del tema de la etiqueta capolaboro de izquierda, al final le vamos a pasar al diseño de eso.\nSpeaker A: Se lo estaba contando, digo que no te vamos a diseñar nada más a nivel de páginas, con la juñetera puedes apañar, pero sí que hay algunos bloques que son importantes dentro del diseño, entonces lo vamos a trabajar en aquí en casa y pasaremos al diseño, algún banner o alguna cosa especial que queramos que se quede tal cual queremos.\nSpeaker B: Vale, perfecto, genial. Vale, yo me imagino que me saldrán dudas a la hora de desarrollarlo en sí, pero de momento queda todo bastante claro.\nSpeaker A: Y por ejemplo, ese banner de ahí que pone Topologo, que está en dorado, vuelve atrás.\nSpeaker B: Este no.\nSpeaker A: Este no, ese sí. Pues ese banner lo diseñaremos nosotros, pero pasaremos la visión. Vale, te pediré hoy qué ancho quieres que te haga y alguna cosilla especial te pasaremos."
+        }
+      ],
+      "implicacion": "Reservar el bloque y preparar una especificación de dimensiones tras medir el diseño; no convertir una medida provisional en requisito del cliente."
+    },
+    {
+      "id": "R25",
+      "tema": "Textos y multimedia",
+      "estado": "confirmado_entrega_pendiente",
+      "requisito": "El equipo enviará los textos juntos cuando se validen y después recopilará fotos y vídeos por ubicación.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            21,
+            21
+          ],
+          "extracto": "Speaker A: Buenos días, ¿qué tal? Yo he introducido a Francesca, que es la account manager de Pontini, que va a hacer un poco el seguimiento de la web. También está encargando de la redacción de los textos, que es lo que faltaría en principio para tener el esqueleto. Luego ya nos pondremos en tema de imágenes y vídeos."
+        },
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            35,
+            38
+          ],
+          "extracto": "Speaker B: Vale, genial. Pues eso, ¿no? Todo lo que son todas estas fotos, este fondo, ¿no? Así y tal. Vale, iconos y tal, ¿lo pasáis vosotros?\nSpeaker A: Eso lo pasaremos. Y luego no os vamos a diseñar ninguna página más, pero sí que, porque bueno, ahí ya tenéis. Hombre, con esto. Lo que es el estilo, tienes el brand book, que te pasé el brand book.\nSpeaker B: Sí, eso sí, tengo también el wireframe que tienes que seguirlo con la misma estética también.\nSpeaker A: Correcto, seguirlo con la misma estética. En el brand book tienes, por ejemplo, colores, tipografías, recursos. Gráficos, lo que estará el mármol incluso estará ahí también. Eso no está, te lo pasé anteriormente. Vale."
+        },
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            50,
+            52
+          ],
+          "extracto": "Speaker A: Vale, entonces tienes el manual de marca, tienes el diseño de la primera, de la home. Faltarán los textos, que ya tenemos algunas secciones Validadas, revisadas y validadas por el cliente. Otras están revisándolas ahora mismo, pero creo que te lo vamos a pasar todo junto.\nSpeaker B: Vale, mejor, porque así ya empezamos y lo hacemos todo, ¿no?\nSpeaker A: A no ser que me digas lo contrario. Lo que puedes hacer es quedando las estructuras, bloques, tal y cual, poniendo sin texto y luego ya los cargas. Y luego lo último que haremos será la recopilación de los elementos gráficos, fundamentalmente las fotos y los vídeos que vaya a ir en cada en cada sitio, que también lo haremos."
+        }
+      ],
+      "implicacion": "Francesca es el contacto de seguimiento y textos; no asumir que los recursos vistos dentro de PDFs son todos los originales listos para web."
+    },
+    {
+      "id": "R26",
+      "tema": "Entorno inicial",
+      "estado": "confirmado_reunion_actualizado_usuario",
+      "requisito": "La reunión propone empezar en servidores propios al no tener acceso al hosting del cliente; la solicitud actual concreta desarrollo completamente local.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            163,
+            163
+          ],
+          "extracto": "Speaker A: Francisca va a ser la que va a París. Conmigo, evidentemente, pero ahí ya la ponéis un poco ya de también de todo lo referente a este proyecto. Vale. Y vosotros ya podéis empezar a crear, queramos que lo hagáis primero en vuestros seguidores, como no tenemos acceso todavía al hosting del cliente, o sea, desarrollar en vuestros seguidores."
+        },
+        {
+          "fuente": "solicitud_usuario",
+          "apartado": "En local completamente"
+        }
+      ],
+      "implicacion": "Seguir local ahora; acceso de hosting será dependencia de la fase de producción, no de la investigación."
+    },
+    {
+      "id": "R27",
+      "tema": "Organización",
+      "estado": "confirmado",
+      "requisito": "Francesca lleva seguimiento de la web y redacción; Rafa desarrolla. Eloy lleva aspectos comerciales.",
+      "fuentes": [
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            9,
+            9
+          ],
+          "extracto": "Speaker A: porque un poco el seguimiento de la web lo va a hacer ella, vale, del proceso de desarrollo y tal. Ella es la account manager asignada a este cliente. Y bueno, si quieres, lo que hacemos hoy es repasar la documentación que te hemos enviado. No sé si tienes tú ahí a mano."
+        },
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            21,
+            21
+          ],
+          "extracto": "Speaker A: Buenos días, ¿qué tal? Yo he introducido a Francesca, que es la account manager de Pontini, que va a hacer un poco el seguimiento de la web. También está encargando de la redacción de los textos, que es lo que faltaría en principio para tener el esqueleto. Luego ya nos pondremos en tema de imágenes y vídeos."
+        },
+        {
+          "fuente": "transcripcion",
+          "archivo": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+          "lineas": [
+            164,
+            164
+          ],
+          "extracto": "Speaker B: Sí, luego como siempre, como con el resto de proyectos, sabes que siempre hacemos lo mismo. Vale. Eloy me preguntó, bueno, me dijo que para proyectos inferiores a 2000 es pago único. Es lo único. ¿Tenéis algún inconveniente o algo? Vale, pues eso. Vale, ya sabes tú que como esos temas los lleva Eloy, pues yo, me ha dicho pregúntalo, yo lo digo. Vale,"
+        }
+      ],
+      "implicacion": "No asignar nombres reales a cada Speaker sin verificación; no es necesario para implementar."
+    }
+  ],
+  "pendientes": [
+    {
+      "id": "P01",
+      "asunto": "Lista final y número de plantas con ficha",
+      "detalle": "Confirmar las tres de Destacados y el listado exacto de Colección Especial; no tomar 6–7 o 12 como inventario definitivo.",
+      "responsable": "Equipo de cliente / Francesca",
+      "bloquea": "Carga final de productos; permite construir la plantilla con ejemplos."
+    },
+    {
+      "id": "P02",
+      "asunto": "Datos completos por ficha",
+      "detalle": "Textos, nombres, imágenes, variantes/características y meses reales de disponibilidad por especie según campos del wireframe.",
+      "responsable": "Equipo de cliente / especialista italiano",
+      "bloquea": "Contenido definitivo y validación de fichas."
+    },
+    {
+      "id": "P03",
+      "asunto": "Aspecto de disponibilidad mensual",
+      "detalle": "Etiqueta final e interacción. Iniciales y tooltip son una propuesta conversada, todavía no un diseño cerrado.",
+      "responsable": "Diseño / desarrollo / cliente",
+      "bloquea": "Acabado final del componente, no su estructura."
+    },
+    {
+      "id": "P04",
+      "asunto": "Testimonios",
+      "detalle": "Decidir inclusión, número y textos/autores si se incluyen.",
+      "responsable": "Cliente / Francesca",
+      "bloquea": "Activación final del bloque."
+    },
+    {
+      "id": "P05",
+      "asunto": "Textos italianos validados",
+      "detalle": "Entrega conjunta y asignación a páginas/bloques; especialista revisará el italiano.",
+      "responsable": "Francesca / especialista",
+      "bloquea": "Aprobación editorial; permite Lorem Ipsum en local."
+    },
+    {
+      "id": "P06",
+      "asunto": "Producción inglesa",
+      "detalle": "Elegir entrega de traducciones o traducción automática con revisión. La mención VML no confirma WPML ni otra herramienta.",
+      "responsable": "Cliente / Francesca / desarrollo",
+      "bloquea": "Carga y validación EN, no validación inicial IT."
+    },
+    {
+      "id": "P07",
+      "asunto": "Fotografía y vídeo",
+      "detalle": "Recibir originales finales y mapa de dónde se utiliza cada archivo, con recortes responsive.",
+      "responsable": "Equipo de diseño / cliente",
+      "bloquea": "Fidelidad y rendimiento finales; permite marcadores."
+    },
+    {
+      "id": "P08",
+      "asunto": "Banner y etiqueta Capolavoro",
+      "detalle": "Rafa facilita ancho útil y relación de aspecto; el equipo entrega piezas de diseño y posibles adaptaciones móviles.",
+      "responsable": "Desarrollo y diseño",
+      "bloquea": "Acabado del bloque especial."
+    },
+    {
+      "id": "P09",
+      "asunto": "Enlaces externos",
+      "detalle": "URL reales de área reservada y disponibilidad semanal; comprobar si existe una URL común o destinos por producto.",
+      "responsable": "Cliente",
+      "bloquea": "Validación de esos enlaces; permite identificarlos como pendientes en local."
+    },
+    {
+      "id": "P10",
+      "asunto": "Catálogos PDF",
+      "detalle": "Archivos definitivos, nombres por idioma y asignación a CTA.",
+      "responsable": "Cliente / diseño",
+      "bloquea": "Descargas reales."
+    },
+    {
+      "id": "P11",
+      "asunto": "Ajustes móviles",
+      "detalle": "Revisar primera versión responsive antes de decidir ocultaciones; no hay lista aprobada de bloques ocultos.",
+      "responsable": "Cliente / diseño",
+      "bloquea": "Validación responsive final."
+    },
+    {
+      "id": "P12",
+      "asunto": "Editor WordPress",
+      "detalle": "Elegir tema, bloques y campos editables. Elementor aparece como ejemplo y no constituye una exigencia aprobada.",
+      "responsable": "Desarrollo / usuario",
+      "bloquea": "Conversión a WordPress; no la investigación ni el prototipo local."
+    },
+    {
+      "id": "P13",
+      "asunto": "Contacto y contenido legal",
+      "detalle": "Si el wireframe incluye formulario: confirmar campos, destinatario y comportamiento. Datos societarios, textos legales y consentimiento se revisarán con el contenido final. No aparecen requisitos concretos de backend en la reunión.",
+      "responsable": "Cliente / desarrollo",
+      "bloquea": "Funcionamiento real del formulario y publicación; no la maquetación."
+    },
+    {
+      "id": "P14",
+      "asunto": "Producción",
+      "detalle": "Accesos de hosting, dominio, instalación existente, copia y migración se concretan al llegar a la fase final.",
+      "responsable": "Cliente / usuario",
+      "bloquea": "Despliegue, no el trabajo local."
+    }
+  ],
+  "contradicciones_y_errores_de_interpretacion": [
+    {
+      "id": "C01",
+      "fragmento": "Tres categorías principales en notas; enumeración de cuatro.",
+      "resolucion": "Usar cuatro: confirmado explícitamente en l.66 y l.157.",
+      "certeza": "alta"
+    },
+    {
+      "id": "C02",
+      "fragmento": "Los 3 primeros ... destacados y colecciones especiales (l.68).",
+      "resolucion": "Solo dos categorías con ficha, conforme aclaración l.78–100. No crear una tercera categoría con detalle.",
+      "certeza": "alta"
+    },
+    {
+      "id": "C03",
+      "fragmento": "En español principal e inglés en secundario (l.143).",
+      "resolucion": "Italiano principal e inglés secundario: instrucción explícita actual del usuario y l.139–145.",
+      "certeza": "alta"
+    },
+    {
+      "id": "C04",
+      "fragmento": "Esas fotos, hortensia y anturios (l.92); pothos se menciona en ejemplo de cambio (l.83).",
+      "resolucion": "Hortensia y anturios son identificaciones claras de la transcripción; tercera especie no queda confirmada solo por el audio transcrito. Verificar visualmente con el PDF y después con listado final. Ficus es un ejemplo hipotético.",
+      "certeza": "media"
+    },
+    {
+      "id": "C05",
+      "fragmento": "Capolaboro / Topologo (l.116 y l.119).",
+      "resolucion": "Las notas del usuario lo normalizan a Capolavoro. Verificar texto exacto y grafismo en PDF o arte final.",
+      "certeza": "media"
+    },
+    {
+      "id": "C06",
+      "fragmento": "Traductor de VML (l.143).",
+      "resolucion": "Podría aludir a una herramienta de traducción pero no acredita elección de plugin. No registrar WPML como requisito confirmado.",
+      "certeza": "alta_en_no_eleccion"
+    },
+    {
+      "id": "C07",
+      "fragmento": "Hacienda y cuando compres un producto (l.151–155).",
+      "resolucion": "Se habla de navegación de empresa y menú de productos; no demuestra administración tributaria ni comercio electrónico. Nombre italiano exacto en wireframe.",
+      "certeza": "alta"
+    },
+    {
+      "id": "C08",
+      "fragmento": "Entre hoy y mañana y reunión a las 12:30 (l.166).",
+      "resolucion": "Son referencias relativas de una reunión sin fecha establecida. No convertirlas en una fecha actual o compromiso nuevo.",
+      "certeza": "alta"
+    },
+    {
+      "id": "C09",
+      "fragmento": "Proyectos inferiores a 2000 son pago único (l.164).",
+      "resolucion": "Es una condición comercial general; no establece precio exacto, alcance extra ni fecha de pago de este proyecto.",
+      "certeza": "alta"
+    }
+  ],
+  "criterios_de_aceptacion_recomendados": [
+    {
+      "id": "A01",
+      "tema": "Navegación",
+      "criterio_recomendado": "Todos los enlaces del mapa de páginas llevan al destino previsto; menús operables con ratón, teclado y móvil; el lateral mantiene acceso a todas las subpáginas de empresa.",
+      "no_confirmado_en_reunion": "Detalles de accesibilidad y gesto táctil."
+    },
+    {
+      "id": "A02",
+      "tema": "Galerías",
+      "criterio_recomendado": "Las imágenes de Planta Verde/Flor abren lightbox, con cierre visible, tecla Escape y devolución de foco; no llevan a una ficha vacía.",
+      "no_confirmado_en_reunion": "Mecanismos de teclado y gestión de foco son recomendación de implementación."
+    },
+    {
+      "id": "A03",
+      "tema": "Meses",
+      "criterio_recomendado": "Mostrar doce posiciones con etiquetas italianas claras y estado disponible distinguible además de color. Preferir abreviaturas de tres letras a iniciales ambiguas. Si se usa tooltip debe funcionar también con foco y toque.",
+      "no_confirmado_en_reunion": "La elección de abreviaturas de tres letras es propuesta técnica; iniciales y tooltip tampoco estaban cerrados."
+    },
+    {
+      "id": "A04",
+      "tema": "Contenido de prueba",
+      "criterio_recomendado": "Usar textos y medios provisionales con longitud y proporciones próximas a las previstas; mantenerlos identificados para no publicarlos por error.",
+      "no_confirmado_en_reunion": "Método de identificación de contenido provisional."
+    },
+    {
+      "id": "A05",
+      "tema": "Preparación WordPress",
+      "criterio_recomendado": "Separar datos y presentación, usar una plantilla de ficha común y un esquema explícito de meses, colecciones, galerías, CTA y traducciones; definir en la fase WordPress quién edita cada bloque.",
+      "no_confirmado_en_reunion": "Modelo concreto de datos, plugin de campos y editor."
+    },
+    {
+      "id": "A06",
+      "tema": "Validación visual",
+      "criterio_recomendado": "Aprobar primero home en escritorio y móvil, después familias de plantillas y páginas; cotejar el orden y jerarquía de los bloques con el wireframe y tokens con el brand book.",
+      "no_confirmado_en_reunion": "Orden exacto de validación entre familias."
+    },
+    {
+      "id": "A07",
+      "tema": "Idiomas",
+      "criterio_recomendado": "Raíz en italiano y ruta /en/ para inglés; el selector conserva la página equivalente cuando exista traducción.",
+      "no_confirmado_en_reunion": "La estructura de URL es propuesta y se deberá confirmar al elegir solución WordPress."
+    },
+    {
+      "id": "A08",
+      "tema": "Prototipo local",
+      "criterio_recomendado": "Formulario y enlaces externos incompletos se identifican con estado pendiente; no fingir un envío ni inventar URL reales.",
+      "no_confirmado_en_reunion": "Presentación concreta del estado pendiente."
+    }
+  ],
+  "fases_propuestas": [
+    {
+      "fase": 0,
+      "nombre": "Investigación y cierre del alcance",
+      "objetivo": "Inventario de fuentes, sitemap, bloques, flujos, tokens visuales, matriz de contenido y decisiones pendientes.",
+      "salida": "Dossier local revisable.",
+      "dependencias": "Los tres PDF, notas y transcripción ya disponibles.",
+      "estado": "fase_actual"
+    },
+    {
+      "fase": 1,
+      "nombre": "Base local y home en italiano",
+      "objetivo": "Preparar estructura local, estilos de marca, header/footer y home fiel al diseño con marcadores de contenido.",
+      "salida": "Home navegable en escritorio y móvil.",
+      "dependencias": "Revisión del dossier; logo/fuentes web originales o sustitución provisional explícita.",
+      "estado": "propuesta_futura"
+    },
+    {
+      "fase": 2,
+      "nombre": "Páginas informativas y contacto",
+      "objetivo": "Implementar familia de empresa con lateral y subpáginas, servicios y contacto según sitemap real.",
+      "salida": "Navegación completa y bloques reutilizables.",
+      "dependencias": "Base común; el orden contacto/empresa puede ajustarse con el usuario.",
+      "estado": "propuesta_futura"
+    },
+    {
+      "fase": 3,
+      "nombre": "Productos y comportamientos",
+      "objetivo": "Crear cuatro categorías, plantilla de ficha para dos categorías y galerías lightbox para dos; representar disponibilidad mensual y reservar CTA externos/descargas.",
+      "salida": "Flujos de producto completos con datos de ejemplo.",
+      "dependencias": "Campos del wireframe; listas finales solo para carga definitiva.",
+      "estado": "propuesta_futura"
+    },
+    {
+      "fase": 4,
+      "nombre": "Contenido y validación en italiano",
+      "objetivo": "Sustituir marcadores por textos, fotografía, vídeo y bloques especiales; ajustar responsive y decidir testimonios.",
+      "salida": "Versión italiana revisada por especialista y aprobada visualmente.",
+      "dependencias": "Entregas P01–P11.",
+      "estado": "propuesta_futura"
+    },
+    {
+      "fase": 5,
+      "nombre": "WordPress editable y segunda lengua",
+      "objetivo": "Convertir componentes y datos al editor elegido; cargar inglés con revisión y verificar equivalencias, formularios, descargas y enlaces.",
+      "salida": "Sitio editable validado en entorno local o staging acordado.",
+      "dependencias": "Elección de editor y traducción; italiano validado antes de traducir. La conversión puede adelantarse tras aprobar estructuras si el usuario lo decide.",
+      "estado": "propuesta_futura"
+    },
+    {
+      "fase": 6,
+      "nombre": "Producción",
+      "objetivo": "Preparar respaldo y migración, publicar cuando corresponda y verificar páginas, formulario, idiomas y recursos en el dominio final.",
+      "salida": "Sitio publicado y comprobado.",
+      "dependencias": "Accesos y acuerdo de publicación; contenido final y WordPress validados.",
+      "estado": "fuera_de_autorizacion_actual_de_publicacion"
+    }
+  ],
+  "fuera_de_alcance_no_pedido": [
+    "Publicar ahora",
+    "Comercio electrónico, cesta, checkout o pagos web",
+    "Autenticación o panel privado propio para el área reservada",
+    "Sincronización de stock o disponibilidad semanal",
+    "Importar reseñas de Google",
+    "Rotación estacional automática de productos",
+    "Versión en español",
+    "Base oculta de fichas de todas las plantas",
+    "Elección obligatoria de Elementor o WPML",
+    "Diferentes textos editoriales por dispositivo"
+  ],
+  "nota_comercial": "Se mencionó pago único para proyectos inferiores a 2.000 euros; no se dispone del precio de este proyecto, calendario de cobro ni contrato. No condiciona el análisis técnico."
+}

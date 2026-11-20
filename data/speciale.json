@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "dipladenia",
+    "name": "Dipladenia",
+    "botanical": "Mandevilla",
+    "image": null,
+    "stats": [
+      "800",
+      "150.000",
+      "21"
+    ],
+    "months": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "availability_demo": true
+  },
+  {
+    "slug": "monstera",
+    "name": "Monstera",
+    "botanical": "Monstera",
+    "image": null,
+    "stats": [
+      "—",
+      "—",
+      "—"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "availability_demo": true
+  },
+  {
+    "slug": "phalaenopsis",
+    "name": "Phalaenopsis",
+    "botanical": "Phalaenopsis",
+    "image": null,
+    "stats": [
+      "—",
+      "—",
+      "—"
+    ],
+    "months": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "availability_demo": true
+  }
+]

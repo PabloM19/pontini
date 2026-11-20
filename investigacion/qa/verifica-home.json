@@ -1,0 +1,36 @@
+{
+  "sizes": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "images": true,
+      "lang": "it"
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "images": true,
+      "lang": "it"
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "images": true,
+      "lang": "it"
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "images": true,
+      "lang": "it"
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "images": true,
+      "lang": "it"
+    }
+  ],
+  "interactions": "Menù mobile, dropdown desktop e mobile, finestre informative, anteprima pianta, Escape, chiusura e ripristino focus: OK",
+  "errors": []
+}

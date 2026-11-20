@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "ortensia",
+    "name": "Ortensia",
+    "botanical": "Hydrangea",
+    "image": "ortensia.webp",
+    "stats": [
+      "1.500",
+      "300.000",
+      "12"
+    ],
+    "months": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "availability_demo": true
+  },
+  {
+    "slug": "pothos",
+    "name": "Pothos",
+    "botanical": "Nome botanico da confermare",
+    "image": "pothos.webp",
+    "stats": [
+      "—",
+      "—",
+      "—"
+    ],
+    "months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "availability_demo": true
+  },
+  {
+    "slug": "anthurium",
+    "name": "Anthurium",
+    "botanical": "Anthurium",
+    "image": "anthurium.webp",
+    "stats": [
+      "—",
+      "—",
+      "—"
+    ],
+    "months": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "availability_demo": true
+  }
+]

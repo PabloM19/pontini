@@ -1,0 +1,51 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "language": "it",
+      "categories": true,
+      "featured": 3,
+      "special": 3,
+      "columns": 3
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "language": "it",
+      "categories": true,
+      "featured": 3,
+      "special": 3,
+      "columns": 3
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "language": "it",
+      "categories": true,
+      "featured": 3,
+      "special": 3,
+      "columns": 3
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "language": "it",
+      "categories": true,
+      "featured": 3,
+      "special": 3,
+      "columns": 1
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "language": "it",
+      "categories": true,
+      "featured": 3,
+      "special": 3,
+      "columns": 1
+    }
+  ],
+  "errors": [],
+  "interactions": "Six plant previews, four info dialogs, all category anchors and mobile menu closure, links from six pages and home catalog CTA passed"
+}

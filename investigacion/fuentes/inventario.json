@@ -1,0 +1,404 @@
+{
+  "review_date": "2026-11-19",
+  "sources": [
+    {
+      "path": "Diseño_web_Pontini_version_escritorio.pdf",
+      "type": "pdf",
+      "sha256": "8c5bbb0640430ab998af0a26f44aaa0b9c1591b48092fd6cd390e94444637504",
+      "bytes": 418160,
+      "pages": 1,
+      "page_sizes_points": [
+        {
+          "page": 1,
+          "width": 1080.0,
+          "height": 2399.0
+        }
+      ],
+      "annotations": 0,
+      "metadata": {
+        "/CreationDate": "D:20261116104301+01'00'",
+        "/Creator": "Adobe InDesign 19.5 (Macintosh)",
+        "/ModDate": "D:20261116104302+01'00'",
+        "/Producer": "Adobe PDF Library 17.0",
+        "/Trapped": "/False"
+      }
+    },
+    {
+      "path": "FESAEECT0001_Brand_Book_Pontini_WEB.pdf",
+      "type": "pdf",
+      "sha256": "75cfbe7ce5fad4c8405933e094d6ba67d64236a4e36ccb211aedc53e3eb3bb27",
+      "bytes": 17528816,
+      "pages": 52,
+      "page_sizes_points": [
+        {
+          "page": 1,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 2,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 3,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 4,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 5,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 6,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 7,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 8,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 9,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 10,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 11,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 12,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 13,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 14,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 15,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 16,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 17,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 18,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 19,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 20,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 21,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 22,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 23,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 24,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 25,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 26,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 27,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 28,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 29,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 30,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 31,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 32,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 33,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 34,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 35,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 36,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 37,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 38,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 39,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 40,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 41,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 42,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 43,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 44,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 45,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 46,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 47,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 48,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 49,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 50,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 51,
+          "width": 708.661,
+          "height": 595.276
+        },
+        {
+          "page": 52,
+          "width": 708.661,
+          "height": 595.276
+        }
+      ],
+      "annotations": 0,
+      "metadata": {
+        "/CreationDate": "D:20260724095221+02'00'",
+        "/Creator": "Adobe InDesign 19.5 (Macintosh)",
+        "/GTS_PDFXVersion": "PDF/X-4",
+        "/ModDate": "D:20260724095251+02'00'",
+        "/Producer": "Adobe PDF Library 17.0",
+        "/Title": "FESAEECT0001_Brand_Book_Pontini_WEB.indd",
+        "/Trapped": "/False"
+      }
+    },
+    {
+      "path": "wireframe-Pontini.pdf",
+      "type": "pdf",
+      "sha256": "3b7e62dd86bdaa4583881a00ceb11a9739a7609446798c0ff752c1c62cb17f4d",
+      "bytes": 3357145,
+      "pages": 15,
+      "page_sizes_points": [
+        {
+          "page": 1,
+          "width": 1220.0,
+          "height": 3186.0
+        },
+        {
+          "page": 2,
+          "width": 1220.0,
+          "height": 2996.0
+        },
+        {
+          "page": 3,
+          "width": 1220.0,
+          "height": 2843.0
+        },
+        {
+          "page": 4,
+          "width": 1220.0,
+          "height": 2440.0
+        },
+        {
+          "page": 5,
+          "width": 1220.0,
+          "height": 2545.0
+        },
+        {
+          "page": 6,
+          "width": 1220.0,
+          "height": 1725.0
+        },
+        {
+          "page": 7,
+          "width": 1220.0,
+          "height": 3255.0
+        },
+        {
+          "page": 8,
+          "width": 1220.0,
+          "height": 2416.0
+        },
+        {
+          "page": 9,
+          "width": 1220.0,
+          "height": 2416.0
+        },
+        {
+          "page": 10,
+          "width": 1220.0,
+          "height": 2183.0
+        },
+        {
+          "page": 11,
+          "width": 1527.0,
+          "height": 2183.0
+        },
+        {
+          "page": 12,
+          "width": 1220.0,
+          "height": 3050.0
+        },
+        {
+          "page": 13,
+          "width": 1220.0,
+          "height": 3050.0
+        },
+        {
+          "page": 14,
+          "width": 1220.0,
+          "height": 3050.0
+        },
+        {
+          "page": 15,
+          "width": 1220.0,
+          "height": 3222.0
+        }
+      ],
+      "annotations": 524,
+      "metadata": {
+        "/Creator": "GrapeCity.Documents.Pdf-3.2.0.556"
+      }
+    },
+    {
+      "path": "investigacion/fuentes/transcripcion-reunion.txt",
+      "type": "transcript",
+      "sha256": "613115ed9380bfe47febe899682fb13fe4a778a17ef52f49fdfeb567758b424d",
+      "bytes": 16481,
+      "lines": 170,
+      "original_path": "/Users/bleras/.codex/attachments/f35fb024-bd6d-407c-82e8-eb1717152a70/Texto pegado.txt",
+      "meeting_date": null
+    }
+  ],
+  "additional_source": "Notas y encargo del usuario en este chat. Italiano principal e inglés secundario. Investigación y preparación local; desarrollo posterior."
+}

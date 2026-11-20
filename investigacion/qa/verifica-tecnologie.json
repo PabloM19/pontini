@@ -1,0 +1,48 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "blocks": 6,
+      "language": "it",
+      "sticky": "sticky"
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "blocks": 6,
+      "language": "it",
+      "sticky": "sticky"
+    },
+    {
+      "width": 801,
+      "overflow": false,
+      "blocks": 6,
+      "language": "it",
+      "sticky": "sticky"
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "blocks": 6,
+      "language": "it",
+      "sticky": "static"
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "blocks": 6,
+      "language": "it",
+      "sticky": "static"
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "blocks": 6,
+      "language": "it",
+      "sticky": "static"
+    }
+  ],
+  "errors": [],
+  "interactions": "Both video placeholders, Escape, contact CTA, links from home/company/contact passed"
+}

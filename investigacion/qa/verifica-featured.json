@@ -1,0 +1,186 @@
+{
+  "checks": [
+    {
+      "slug": "ortensia",
+      "width": 1440,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "ortensia.html",
+      "position": "sticky"
+    },
+    {
+      "slug": "ortensia",
+      "width": 1024,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "ortensia.html",
+      "position": "sticky"
+    },
+    {
+      "slug": "ortensia",
+      "width": 801,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "ortensia.html",
+      "position": "sticky"
+    },
+    {
+      "slug": "ortensia",
+      "width": 768,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "ortensia.html",
+      "position": "static"
+    },
+    {
+      "slug": "ortensia",
+      "width": 390,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "ortensia.html",
+      "position": "static"
+    },
+    {
+      "slug": "ortensia",
+      "width": 320,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "ortensia.html",
+      "position": "static"
+    },
+    {
+      "slug": "pothos",
+      "width": 1440,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "pothos.html",
+      "position": "sticky"
+    },
+    {
+      "slug": "pothos",
+      "width": 1024,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "pothos.html",
+      "position": "sticky"
+    },
+    {
+      "slug": "pothos",
+      "width": 801,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "pothos.html",
+      "position": "sticky"
+    },
+    {
+      "slug": "pothos",
+      "width": 768,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "pothos.html",
+      "position": "static"
+    },
+    {
+      "slug": "pothos",
+      "width": 390,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "pothos.html",
+      "position": "static"
+    },
+    {
+      "slug": "pothos",
+      "width": 320,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "pothos.html",
+      "position": "static"
+    },
+    {
+      "slug": "anthurium",
+      "width": 1440,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "anthurium.html",
+      "position": "sticky"
+    },
+    {
+      "slug": "anthurium",
+      "width": 1024,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "anthurium.html",
+      "position": "sticky"
+    },
+    {
+      "slug": "anthurium",
+      "width": 801,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "anthurium.html",
+      "position": "sticky"
+    },
+    {
+      "slug": "anthurium",
+      "width": 768,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "anthurium.html",
+      "position": "static"
+    },
+    {
+      "slug": "anthurium",
+      "width": 390,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "anthurium.html",
+      "position": "static"
+    },
+    {
+      "slug": "anthurium",
+      "width": 320,
+      "overflow": false,
+      "months": 12,
+      "gallery": 6,
+      "language": "it",
+      "active": "anthurium.html",
+      "position": "static"
+    }
+  ],
+  "errors": [],
+  "interactions": "Month click/keyboard feedback, gallery modal/Escape/focus, CTA dialogs, inter-sheet sidebar links, links from home and catalog: passed"
+}

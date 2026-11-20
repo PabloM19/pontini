@@ -1,0 +1,170 @@
+Speaker A: Estaban acabados de salir de otra reunión y había otro tema y ya se han ido a casa porque no habéis podido estar.
+Speaker B: Qué va, son cosas que pasan. Yo me he acordado por eso, porque me ha llegado la notificación y digo bueno, voy a escribirle a ver.
+Speaker A: Bueno, esperamos a Eloy.
+Speaker B: No, el hoy no se va a poder meter.
+Speaker A: Francesca, mi compañera,
+Speaker B: se
+Speaker A: conectará ahora cuando pueda,
+Speaker B: vale,
+Speaker A: porque un poco el seguimiento de la web lo va a hacer ella, vale, del proceso de desarrollo y tal. Ella es la account manager asignada a este cliente. Y bueno, si quieres, lo que hacemos hoy es repasar la documentación que te hemos enviado. No sé si tienes tú ahí a mano.
+Speaker B: Tengo el wireframe. Y no sé si tengo algo
+Speaker A: más.
+Speaker B: Sí, bueno, es como el diseño de toda la web en
+Speaker A: general. Pues está,
+Speaker B: a ver, yo tengo la home, luego quiénes somos,
+Speaker A: o sea, tengo un montón de páginas.
+Speaker B: Ah, vale, ok, vale, vale, perfecto.
+Speaker A: Ah,
+Speaker B: sí, vale, es que esto no lo había visto. Vale, perfecto. Ya lo tengo. Pues si lo quieres presentar o lo presento yo, me da igual.
+Speaker A: Vale.
+Speaker B: Cuando lo veas me dices.
+Speaker A: Buenos días, ¿qué tal? Yo he introducido a Francesca, que es la account manager de Pontini, que va a hacer un poco el seguimiento de la web. También está encargando de la redacción de los textos, que es lo que faltaría en principio para tener el esqueleto. Luego ya nos pondremos en tema de imágenes y vídeos.
+Speaker B: Sí, porque todas estas fotos y tal nos las pasáis vosotros, ¿no? Y este fondo y tal, ¿no?
+Speaker C: No sé qué pasa, pero yo no lo oigo.
+Speaker A: Pablo.
+Speaker B: ¿Tú me oyes, Rafa?
+Speaker A: Sí, yo sí.
+Speaker C: ¿Sí?
+Speaker B: Uy.
+Speaker A: Entonces será tu...
+Speaker B: ¿Queréis que salga y vuelva a entrar?
+Speaker C: A ver, no, es... soy yo.
+Speaker A: A mí es que... a mí me oía por el de al lado.
+Speaker B: Ah. Vale,
+Speaker C: ahora.
+Speaker B: Vale, genial. Pues eso, ¿no? Todo lo que son todas estas fotos, este fondo, ¿no? Así y tal. Vale, iconos y tal, ¿lo pasáis vosotros?
+Speaker A: Eso lo pasaremos. Y luego no os vamos a diseñar ninguna página más, pero sí que, porque bueno, ahí ya tenéis. Hombre, con esto. Lo que es el estilo, tienes el brand book, que te pasé el brand book.
+Speaker B: Sí, eso sí, tengo también el wireframe que tienes que seguirlo con la misma estética también.
+Speaker A: Correcto, seguirlo con la misma estética. En el brand book tienes, por ejemplo, colores, tipografías, recursos. Gráficos, lo que estará el mármol incluso estará ahí también. Eso no está, te lo pasé anteriormente. Vale.
+Speaker B: A ver. Tum tum tum tum. Visión.
+Speaker A: A ver si lo pasé solo a la
+Speaker B: luz. Igual no.
+Speaker A: A ver, el proyecto web. A ver.
+Speaker B: Este. Ah, aquí está. Eso es.
+Speaker A: El Rambo, vale.
+Speaker B: Baja. Bájatelo también. Perfecto, vale. Sí, con esto yo.
+Speaker A: Logotipos.
+Speaker B: Sí, le he dado aquí.
+Speaker A: Y ahí había otra cosa, pero quédate con el último que te pase en esta.
+Speaker B: Vale, ok, vale, pues con esto perfecto.
+Speaker A: Vale, entonces tienes el manual de marca, tienes el diseño de la primera, de la home. Faltarán los textos, que ya tenemos algunas secciones Validadas, revisadas y validadas por el cliente. Otras están revisándolas ahora mismo, pero creo que te lo vamos a pasar todo junto.
+Speaker B: Vale, mejor, porque así ya empezamos y lo hacemos todo, ¿no?
+Speaker A: A no ser que me digas lo contrario. Lo que puedes hacer es quedando las estructuras, bloques, tal y cual, poniendo sin texto y luego ya los cargas. Y luego lo último que haremos será la recopilación de los elementos gráficos, fundamentalmente las fotos y los vídeos que vaya a ir en cada en cada sitio, que también lo haremos.
+Speaker B: Vale, perfecto. Yo tenía una duda, lo estaba viendo antes el wireframe para repasarlo un poco. Tiene una duda, a ver si lo encuentro aquí. Vale, estos testimonios deben ser fijos, deben beber de Google, o de dónde
+Speaker A: serán fijos. Y está en discusión todavía si se ponen o no, pero
+Speaker B: vale,
+Speaker A: pero sí serán fijos, es decir, en un mantenimiento de la web. Pueden haber varios, por eso he puesto una flechita ahí.
+Speaker B: Vale, y las plantas, por ejemplo, las que salen aquí en esta página, aquí en Servicio
+Speaker A: IBIBAE. Será mejor si lo abres en el lector de PDF porque está linkado.
+Speaker B: Ah, ok, vale. Voy. Si se me corta, me decís, que a veces se me corta y me da la olla.
+Speaker A: Vale. Eso es menú navegable y puentable.
+Speaker B: Ah, ostras, qué bueno.
+Speaker A: Vale, entras en la página que toca.
+Speaker B: Vale, vale, vale.
+Speaker A: Está que el puntero no lo veo a tiempo, pero bueno.
+Speaker B: Vale, vale, no, es buenísimo. Vale, yo por ejemplo quería preguntar, cuando habíamos visto, vale, esto de productos destacados, me imagino que siempre serán los mismos. Pero en colección especial y todo eso, ¿debe cambiar en algún momento? ¿Debe cambiar? O sea, ¿debe haber como una especie de panel en la que seleccionar para que salga aquí en colección especial, en productos destacados, para poder cambiarlo fácil sin tener que modificarlo desde Elementor o lo que sea?
+Speaker A: Destacados, la colección especial, planta verde y planta de flor.
+Speaker B: Vale, vale, vale, vale, ok.
+Speaker A: La diferencia es que los 3 primeros que te he dicho, que son destacados y colecciones especiales, tienen una ficha con información después.
+Speaker B: ¿El resto no?
+Speaker A: El resto, clica en planta verde.
+Speaker B: Voy.
+Speaker A: Clica en planta verde. Te vas a una página donde hay un brief, una Una tabla con fotografías, pero al clicar en cada una de ellas no vas a una ficha. Abre, lo que abre, abre, clica la primera, abre una galería, ¿no?
+Speaker B: Un lightbox.
+Speaker C: Quizás para reportarlo, como puedes agregar comentarios en el wireframe, estas cosas que te estamos diciendo te las puedes ir comentando punto por punto para acordarte cuando vas a desarrollar.
+Speaker B: Sí, sí, sí.
+Speaker C: Porque nosotros lo tenemos muy metido en la cabeza, pero—
+Speaker B: Sí, esto luego lo voy a revisar ahora cuando colguemos y me voy a tomar anotaciones de todo.
+Speaker A: Planta verde y planta de flor tienen solo una página, pero al clicar no te vas a la ficha completa de esa especie, sino que te abre solamente la foto en grande.
+Speaker B: Vale, vale, perfecto. Vale, y entonces todas van a tener una ficha, ¿no?, de detalle, pero solo las que salgan aquí se podrá ver.
+Speaker A: Claro. Si tú clicas en fotos de una hortensia, verás que vas a una ficha.
+Speaker B: Claro, pero por ejemplo, si yo pongo otra, por ejemplo, pues un ficus, porque quiero que ahora sea destacado, también va a tener ya su ficha hecha, ¿no? Lo que pasa es que no se va a ver.
+Speaker A: No, si nosotros queremos que tenga ficha, la pondremos con estas dos, con feature o en especial.
+Speaker B: Por eso digo, porque si tú, por ejemplo, quieres cambiar el pothos por otra, Esa otra también debe tener una ficha. Entonces, todas las plantas van a tener ficha, o sea, me he preguntado.
+Speaker A: Todas las plantas de estas dos categorías sí. De estas dos categorías.
+Speaker B: Vale, ¿y solo van a ser estas tres?
+Speaker A: En fitur, en principio sí, son tres. Vale. Colección especial no sabemos cuántas son.
+Speaker B: Vale, nos lo decís y ya está para saberlo, ¿sabes? Porque para desarrollar la ficha básicamente.
+Speaker A: A lo mejor en total con ficha que puede haber doce como máximo.
+Speaker B: Vale,
+Speaker C: sí, por ahí igual hay incluso menos.
+Speaker B: Vale, vale, vale.
+Speaker A: De las principales que van a ser esas fotos, hortensia y anturios, está claro. Y la especial, pues no sé si van a haber 6, 7.
+Speaker B: Claro, igual cambia, ¿no? La Navidad o algo así, ¿no?
+Speaker A: No, no, no cambia Navidad.
+Speaker B: Vale,
+Speaker A: ok. No están ahí porque estén en su época.
+Speaker B: Ah, ok, vale, vale, vale.
+Speaker A: Los productos más importantes de la empresa.
+Speaker B: Eso es lo que, eso vale, perfecto. Ahora sí, eso es lo que yo quería saber, porque digo, igual si hay una base de datos, me lo invento, de 50, 60 plantas, lo que sea, igual es como añadir un check a decir, vale, esta planta quiero que salga en colección especial, ¿sabes?
+Speaker A: Vale, vale, perfecto. Ella queremos que esté en la colección especial, que hagamos una ficha nueva.
+Speaker B: Vale, vale, vale.
+Speaker C: Y el tema de, perdona que has pasado rápido, el tema donde pone disponibilidad, porque igual allí no queda muy claro.
+Speaker B: Perdón, ¿dónde? ¿En qué página?
+Speaker A: Los botones esos debajo.
+Speaker C: Ah, sí. No me refiero a esos, me refiero dentro de la categoría Penteveti, por ejemplo. Ahí, ahí. Esta, la Hortensia, por ejemplo. Vale. ¿Ves que pone disponibilidad? Este texto, bueno, ese no es el definitivo.
+Speaker A: Abajo de la foto horizontal.
+Speaker B: Este,
+Speaker C: ¿no? Sí, el texto, bueno, el texto disponibilidad ahora mismo no es el definitivo, ya te diremos cuál es, pero bueno, para que lo sepas, estos son los meses,
+Speaker A: van
+Speaker C: a ser los meses del año en los cuales va a estar disponible esa planta.
+Speaker A: No hay todo el año, entonces, por ejemplo, si tengo de febrero a diciembre, entonces marcaremos
+Speaker C: Entonces quizá no es hacer esos rectángulos tal cual, sino algo que a nivel de diseño se entienda que son meses. Igual la inicial del mes en italiano.
+Speaker B: Sí, quizá poner aquí dentro, en vez de poner enero, pues poner e, como sería en castellano, lo mismo en italiano, aquí dentro.
+Speaker C: Sí, algo para que sea muy claro que estamos hablando de los meses.
+Speaker B: Y que yo creo que igual sería disponibilidad y abajo poner entre paréntesis el mes, y aquí que puedas pasar por encima el ratón y ponga enero, febrero, marzo, no sé. Esto ya le damos una vuelta, pero vale, vale, genial.
+Speaker C: Y bueno, Rafa, lo del tema de la etiqueta capolaboro de izquierda, al final le vamos a pasar al diseño de eso.
+Speaker A: Se lo estaba contando, digo que no te vamos a diseñar nada más a nivel de páginas, con la juñetera puedes apañar, pero sí que hay algunos bloques que son importantes dentro del diseño, entonces lo vamos a trabajar en aquí en casa y pasaremos al diseño, algún banner o alguna cosa especial que queramos que se quede tal cual queremos.
+Speaker B: Vale, perfecto, genial. Vale, yo me imagino que me saldrán dudas a la hora de desarrollarlo en sí, pero de momento queda todo bastante claro.
+Speaker A: Y por ejemplo, ese banner de ahí que pone Topologo, que está en dorado, vuelve atrás.
+Speaker B: Este no.
+Speaker A: Este no, ese sí. Pues ese banner lo diseñaremos nosotros, pero pasaremos la visión. Vale, te pediré hoy qué ancho quieres que te haga y alguna cosilla especial te pasaremos.
+Speaker C: Y bueno, Rafa, como he llegado tarde, no sé si habéis comentado el tema de responsive para que se adapte a mobile, si eso lo habéis comentado ya.
+Speaker A: Bueno, se da por hecho.
+Speaker B: Yo quería preguntar también ¿Queréis que salga menos información en teléfono o queréis que salga la misma?
+Speaker A: Es una buena
+Speaker B: pregunta, ¿no? Porque es que el otro día hicimos un desarrollo y la persona nos decía, no, quiero que este bloque, este y este, no salga, y que este texto sea este en teléfono, porque si no se hace muy largo.
+Speaker A: Ya, tanto como hilar tan fino como para hacer textos distintos de web y teléfono, no, pero sí que a lo mejor cuando veamos la versión responsive Responsibles de algunas páginas, así que a lo mejor te decimos que ocultarnos esto, vale, porque es too much,
+Speaker B: vale. Sí, esto es fácil, incluso desde Elementor creo que te pone ocultar en vista tal y tú vas clicando, o sea, fácil, vale.
+Speaker A: Y luego hay algunos enlaces que van fuera, eso creo que lo hablé con él hoy en su momento, vale, sin
+Speaker B: problema.
+Speaker A: Por ejemplo, el área reservada, esto se va a un desarrollo que tienen ellos que está conectado con su
+Speaker B: Vale, vale, vale,
+Speaker A: perfecto. Hay botones de disponibilidad semanal, también tienen que ir a un desarrollo externo.
+Speaker B: Vale, vale, vale.
+Speaker A: Los propios productos, esos botones que ves de color dorado.
+Speaker B: Este.
+Speaker A: Este, sí. Vale. Que todos los catálogos se van a descargar a un PDF.
+Speaker C: Y bueno, tenemos el editor de idiomas también, que también hay una versión en inglés.
+Speaker A: Nosotros los textos iniciales los pasamos en italiano y luego haremos las traducciones.
+Speaker B: Vale, en español no, ¿verdad? ¿Italiano e inglés?
+Speaker A: En español no.
+Speaker B: Vale, perfecto. Si luego por lo que sea queréis...
+Speaker A: En español principal e inglés en secundario. Vale. Luego veremos cómo hacemos las traducciones, si las hacemos a través del traductor traductor de VML y luego refinamos, o te las pasamos ya traducidas, te pasamos los mismos textos en italiano en inglés para que los maquetéis.
+Speaker B: Vale, vale. Yo creo que incluso lo que podemos hacer a nivel inicial es validar primero todo el wireframe en italiano y una vez esté todo hecho ya traducirlo, ¿no?
+Speaker A: Vale, ok.
+Speaker B: Yo creo que sería lo mejor. Vale, pues yo ya no tenía más dudas porque la única duda que me surgía—
+Speaker A: ¿Habéis visto que en las páginas de Quiénes Somos, que es la primera, tiene como un submenú lateral?
+Speaker B: Sí.
+Speaker A: Vale, que es ese que tienes a la izquierda donde las subpáginas puedes ir desde ahí, no hace falta que vayas al menú del header, sino que desde ahí te puedes mover a las distintas páginas que tiene esa sección de Quiénes Somos.
+Speaker B: Vale, sería interesante, ¿no? Que por ejemplo tú cuando clicas en quién somos va a haber una página de quién somos o directamente salta a esta.
+Speaker A: A la de la hacienda.
+Speaker B: Vale, perfecto.
+Speaker A: Salta a esa. Hacienda, cuidado con hacienda, A lo mejor cuando pases justo por quiénes somos tiene que desplegarse esas opciones.
+Speaker B: Perfecto.
+Speaker A: Cuando compres un producto se tiene que desplegar tal.
+Speaker B: Sí, planta esto, ¿no? Algún ejemplo y tal, planta verde, ¿no? Vale.
+Speaker A: A las 4 categorías.
+Speaker B: Vale.
+Speaker C: Y lo mismo para servicio también, si hay que desplegar los precios de servicio.
+Speaker B: Sí, la verdad es que está muy bien explicado. Nunca nos habían pasado un web frame así, por eso cuando me has dicho, Rafa, que se puede navegar digo, vaya tela tú. A nosotros a veces nos han pasado alguna foto así súper pocha y digo, madre mía.
+Speaker A: Vale, bueno, nos toca hacerlo por cada ocasión.
+Speaker B: No, está súper bien, súper bien.
+Speaker A: Francisca va a ser la que va a París. Conmigo, evidentemente, pero ahí ya la ponéis un poco ya de también de todo lo referente a este proyecto. Vale. Y vosotros ya podéis empezar a crear, queramos que lo hagáis primero en vuestros seguidores, como no tenemos acceso todavía al hosting del cliente, o sea, desarrollar en vuestros seguidores.
+Speaker B: Sí, luego como siempre, como con el resto de proyectos, sabes que siempre hacemos lo mismo. Vale. Eloy me preguntó, bueno, me dijo que para proyectos inferiores a 2000 es pago único. Es lo único. ¿Tenéis algún inconveniente o algo? Vale, pues eso. Vale, ya sabes tú que como esos temas los lleva Eloy, pues yo, me ha dicho pregúntalo, yo lo digo. Vale,
+Speaker A: genial. Esto le vas a dar cañera, ¿no?
+Speaker B: Ahora mismo, sí. Entre hoy y mañana ya voy a empezar a, bueno, creo que te pasó Eloy un poco la hoja de ruta, pero me voy a poner ya porque es que voy a hablar con él, son las 11, a las 12 y media tenemos una reunión interna, o sea que Ya voy a hablar con él para juntarnos y empezar.
+Speaker A: Vale, perfecto. Pues nada, si tienes dudas nos vas preguntando.
+Speaker B: Me saldrán al hacer, seguro, la verdad.
+Speaker A: Vale,
+Speaker B: oye, pues muchísimas gracias por vuestro tiempo, que vaya bien, Buen tiempo. Chao, chao.

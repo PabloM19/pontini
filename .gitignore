@@ -1,0 +1,22 @@
+.DS_Store
+**/.DS_Store
+node_modules/
+dist/
+.vercel/
+.env
+.env.*
+!.env.example
+*.log
+__pycache__/
+*.pyc
+tmp/
+
+# Derived PDF resources and screenshots remain local; keep text inventories/reports.
+investigacion/**/render/
+investigacion/**/resources/
+investigacion/**/*.png
+investigacion/**/*.jpg
+investigacion/**/*.webp
+investigacion/**/*.pdf
+investigacion/**/*.jp2
+staging/*.jpg

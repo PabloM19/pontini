@@ -1,0 +1,96 @@
+{
+  "piante-verdi": [
+    {
+      "name": "Beaucarnea",
+      "image": null,
+      "reference_only": true
+    },
+    {
+      "name": "Ficus",
+      "image": null,
+      "reference_only": true
+    },
+    {
+      "name": "Dracaena",
+      "image": null,
+      "reference_only": true
+    },
+    {
+      "name": "Sansevieria",
+      "image": "sansevieria-riferimento.png",
+      "reference_only": true
+    },
+    {
+      "name": "Spathiphyllum",
+      "image": null,
+      "reference_only": true
+    },
+    {
+      "name": "Strelitzia",
+      "image": null,
+      "reference_only": true
+    },
+    {
+      "name": "Beaucarnea",
+      "image": null,
+      "reference_only": true
+    },
+    {
+      "name": "Ficus",
+      "image": null,
+      "reference_only": true
+    },
+    {
+      "name": "Dracaena",
+      "image": null,
+      "reference_only": true
+    }
+  ],
+  "piante-da-fiore": [
+    {
+      "name": "Ortensia",
+      "image": "ortensia.webp",
+      "reference_only": true
+    },
+    {
+      "name": "Anthurium",
+      "image": "anthurium.webp",
+      "reference_only": true
+    },
+    {
+      "name": "Dipladenia",
+      "image": null,
+      "reference_only": true
+    },
+    {
+      "name": "Phalaenopsis",
+      "image": null,
+      "reference_only": true
+    },
+    {
+      "name": "Ortensia",
+      "image": "ortensia.webp",
+      "reference_only": true
+    },
+    {
+      "name": "Anthurium",
+      "image": "anthurium.webp",
+      "reference_only": true
+    },
+    {
+      "name": "Dipladenia",
+      "image": null,
+      "reference_only": true
+    },
+    {
+      "name": "Phalaenopsis",
+      "image": null,
+      "reference_only": true
+    },
+    {
+      "name": "Ortensia",
+      "image": "ortensia.webp",
+      "reference_only": true
+    }
+  ]
+}
